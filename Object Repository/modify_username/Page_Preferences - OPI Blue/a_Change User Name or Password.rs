@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Change User Name or Password</name>
+   <tag></tag>
+   <elementGuidId>238e2bfb-665b-49fe-8821-3c998f50c036</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;changeUsernamePwdButton&quot;)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md-primary md-button md-ink-ripple md-focused</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>changeUsernamePwdButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-href</name>
+      <type>Main</type>
+      <value>https://raauth.managegrain.com/modify?uid=6805dc80-9e23-4ac2-a5ef-1688b05b39ea&amp;token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImNPeWtnNWdOYWRXT0lFR3ZNSVNTczJEN2RuQSIsImtpZCI6ImNPeWtnNWdOYWRXT0lFR3ZNSVNTczJEN2RuQSJ9.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo0ODQzMyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ4NDMzL3Jlc291cmNlcyIsImV4cCI6MTU1Nzg0NzMwOSwibmJmIjoxNTI2MzExMzA5LCJjbGllbnRfaWQiOiJfb3BpX3dlYl9jbGllbnQiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwicm9sZXMiXSwic3ViIjoiNjgwNWRjODAtOWUyMy00YWMyLWE1ZWYtMTY4OGIwNWIzOWVhIiwiYXV0aF90aW1lIjoxNTI2MzExMzA5LCJpZHAiOiJpZHNydiIsImFtciI6WyJwYXNzd29yZCJdfQ.HOgSJfgqZ19HmushcY4u_1H4LN5oyUvTwtN_WO6sUgGETQ3v5FuvPX3BVn2tVTO6UWoYP5PBTvup1czOusk7H6kV20QSh4X6wY-MMLd009pOul0GtqlENFOTy1mjjmwqq-8ym_DPvPeZmepuct2YwMiIkBW6xS8Q151Vd_ze6b-Wv17jfuGRaMBt3jXb6i_-deKuJPo0IHPr44hyRJQNbDeTFbZwiRCyHOj0xrxZWib99PMDZkpPcSMMQkc-YXrbtORvXxB3-duiwOQbs8e8QTX0AF-LimFWyNFZ-KDXEzIKrvQ5MflNY9ZYhnsPSwPS23FQezoxojJ6fRz_kQ5YLQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://raauth.managegrain.com/modify?uid=6805dc80-9e23-4ac2-a5ef-1688b05b39ea&amp;token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImNPeWtnNWdOYWRXT0lFR3ZNSVNTczJEN2RuQSIsImtpZCI6ImNPeWtnNWdOYWRXT0lFR3ZNSVNTczJEN2RuQSJ9.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo0ODQzMyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ4NDMzL3Jlc291cmNlcyIsImV4cCI6MTU1Nzg0NzMwOSwibmJmIjoxNTI2MzExMzA5LCJjbGllbnRfaWQiOiJfb3BpX3dlYl9jbGllbnQiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwicm9sZXMiXSwic3ViIjoiNjgwNWRjODAtOWUyMy00YWMyLWE1ZWYtMTY4OGIwNWIzOWVhIiwiYXV0aF90aW1lIjoxNTI2MzExMzA5LCJpZHAiOiJpZHNydiIsImFtciI6WyJwYXNzd29yZCJdfQ.HOgSJfgqZ19HmushcY4u_1H4LN5oyUvTwtN_WO6sUgGETQ3v5FuvPX3BVn2tVTO6UWoYP5PBTvup1czOusk7H6kV20QSh4X6wY-MMLd009pOul0GtqlENFOTy1mjjmwqq-8ym_DPvPeZmepuct2YwMiIkBW6xS8Q151Vd_ze6b-Wv17jfuGRaMBt3jXb6i_-deKuJPo0IHPr44hyRJQNbDeTFbZwiRCyHOj0xrxZWib99PMDZkpPcSMMQkc-YXrbtORvXxB3-duiwOQbs8e8QTX0AF-LimFWyNFZ-KDXEzIKrvQ5MflNY9ZYhnsPSwPS23FQezoxojJ6fRz_kQ5YLQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                
+                Change User Name or Password
+            </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;changeUsernamePwdButton&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

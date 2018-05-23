@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_</name>
+   <tag></tag>
+   <elementGuidId>7e38ecc6-8b8f-4bc3-80d5-7c99a9a1878c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;flex-column&quot;]/main-template[@class=&quot;flex-grow ng-scope layout-row&quot;]/div[@class=&quot;flex-column flex-fill flex&quot;]/masthead[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;opi-masthead&quot;]/div[@class=&quot;flex-row-space-between align-center&quot;]/div[@class=&quot;main&quot;]/a[@class=&quot;menu-link hide-gt-md&quot;]/md-icon[@class=&quot;material-icons&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>material-icons</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;flex-column&quot;]/main-template[@class=&quot;flex-grow ng-scope layout-row&quot;]/div[@class=&quot;flex-column flex-fill flex&quot;]/masthead[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;opi-masthead&quot;]/div[@class=&quot;flex-row-space-between align-center&quot;]/div[@class=&quot;main&quot;]/a[@class=&quot;menu-link hide-gt-md&quot;]/md-icon[@class=&quot;material-icons&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

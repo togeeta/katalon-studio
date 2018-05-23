@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>multiple_logins</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-17T09:48:45</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c34442d2-fc37-4a14-b413-5b652626ef41</testSuiteGuid>
+   <testCaseLink>
+      <guid>7fe59e6c-7373-4418-86ae-15b1f113b205</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/valid_login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>534080a4-50ac-4b6b-883a-81e1ed564fc1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>534080a4-50ac-4b6b-883a-81e1ed564fc1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>b1a2190c-34bb-4f85-8bbe-c8799ae740a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>534080a4-50ac-4b6b-883a-81e1ed564fc1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>passWord</value>
+         <variableId>caee98cb-741b-4453-92bf-ec7fef9ff52d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
