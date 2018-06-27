@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ui-select-match-close select</name>
+   <tag></tag>
+   <elementGuidId>63bc4141-0671-4758-9d8b-2225ef9cff9a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-match-close select2-search-choice-close</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$selectMultiple.removeChoice($index)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grainConditionContainer&quot;)/div[@class=&quot;opi-grain-condition-filters&quot;]/div[@class=&quot;filters-container&quot;]/opi-toggle-filters[@class=&quot;ng-isolate-scope&quot;]/form[@class=&quot;opi-toggle-filters ng-valid ng-dirty&quot;]/div[6]/div[@class=&quot;filter-select ng-scope&quot;]/div[@class=&quot;ui-select-container ui-select-multiple select2 select2-container select2-container-multi ng-valid ng-scope ng-not-empty ng-dirty ng-touched&quot;]/ul[@class=&quot;select2-choices&quot;]/span[@class=&quot;ui-select-match ng-scope&quot;]/li[@class=&quot;ui-select-match-item select2-search-choice ng-scope&quot;]/a[@class=&quot;ui-select-match-close select2-search-choice-close&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

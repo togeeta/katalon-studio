@@ -22,13 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ra.managegrain.com/#/dashboard/userPreferences')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('grain_condition_tab/Page_OPI Blue/input_username'), 'opiopi20171+00028@gmail.com')
+WebUI.setText(GlobalVariable.setUsername, GlobalVariable.username)
 
-WebUI.setText(findTestObject('grain_condition_tab/Page_OPI Blue/input_password'), 'gWF7Q4IlreZBZUpxglt7')
+WebUI.setText(GlobalVariable.setPassword, GlobalVariable.password)
 
-WebUI.click(findTestObject('grain_condition_tab/Page_OPI Blue/span_Log In'))
+WebUI.click(GlobalVariable.logInBtn)
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Dashboard - OPI Blue/a_Grain Condition'))
 
@@ -44,23 +44,27 @@ WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_Bin Name'))
 
+/*WebUI.waitForElementPresent(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_View Settings'), 2)
+
+WebUI.waitForElementClickable(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_View Settings'), 2)
+
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_View Settings'))
 
-WebUI.click(findTestObject('grain_condition_tab/Page_Sites and Bins - OPI Blue/a_Grain Condition'))
+WebUI.click(findTestObject('grain_condition_tab/Page_Sites and Bins - OPI Blue/a_Grain Condition'))*/
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/a_Show Legend'))
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/a_Hide Legend'))
 
-WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/i_icon-edit'))
+/*WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/i_icon-edit'))
 
-WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_Cancel'))
+WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_Cancel'))*/
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/div_Temperature'))
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/span_Moisture Content'))
 
-WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_View Data'))
+//WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/button_View Data'))
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Bin Data - OPI Blue/a_Grain Condition'))
 
@@ -69,6 +73,8 @@ WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/span_Show Filters'))
 
 WebUI.click(findTestObject('grain_condition_tab/Page_Grain Condition - OPI Blue/span_Hide Filters'))
+
+WebUI.click(GlobalVariable.logOut)
 
 WebUI.closeBrowser()
 

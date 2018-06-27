@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create_delete_bin_with_cables_ws_fan_plenum" time="263" tests="2" failures="2" errors="0">
+   <testsuite name="create_delete_bin_with_cables_ws_fan_plenum" tests="2" failures="2" errors="0" time="263" timestamp="2018-06-04 11:24:10" hostname="GeetaB - OPI-LT66.opisystems.local" id="Test Suites/create_delete_bin_with_cables_ws_fan_plenum">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_delete_bin_with_cables_ws_fan_plenum\\20180604_112408"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_delete_bin_with_cables_ws_fan_plenum\\20180604_112408\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_delete_bin_with_cables_ws_fan_plenum\\20180604_112408\\1528133125278.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_delete_bin_with_cables_ws_fan_plenum\\20180604_112408\\1528133308069.png"/>
+         <property name="hostName" value="GeetaB - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="4dfd0da23fd81056dfe0698e99862eaf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/create_bin_with_cables_without_ws_fan_plenum" classname="Test Cases/create_bin_with_cables_without_ws_fan_plenum" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class=&quot;ng-scope&quot;]/body[@class=&quot;flex-column modal-open&quot;]/div[@class=&quot;modal fade ng-scope ng-isolate-scope in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/bin-wizard[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;opi-dialog bs opi-config-sites opi-bin-wizard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/bin-wizard-step2-grain-info[@class=&quot;ng-scope ng-isolate-scope&quot;]/bin-grain-info-edit[@class=&quot;ng-isolate-scope&quot;]/form[@class=&quot;opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required&quot;]/div[@class=&quot;opi-form-field full&quot;]/div[@class=&quot;ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required&quot;]/a[@class=&quot;select2-choice ui-select-match ng-scope select2-default&quot;]/span[@class=&quot;select2-arrow ui-select-toggle&quot;]/b[1]' not found)"/>
+         <system-out><![CDATA[2018-06-04 11:24:10 - [TEST_CASE][FAILED] - Test Cases/create_bin_with_cables_without_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-wizard[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites opi-bin-wizard"]/div[@class="content"]/div[@class="ng-scope"]/bin-wizard-step2-grain-info[@class="ng-scope ng-isolate-scope"]/bin-grain-info-edit[@class="ng-isolate-scope"]/form[@class="opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required"]/div[@class="opi-form-field full"]/div[@class="ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required"]/a[@class="select2-choice ui-select-match ng-scope select2-default"]/span[@class="select2-arrow ui-select-toggle"]/b[1]' not found)
+
+2018-06-04 11:24:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-04 11:24:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-04 11:24:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:24:23 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:24:23 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin/Page_OPI Blue/input_username'
+
+2018-06-04 11:24:29 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin/Page_OPI Blue/input_username'
+
+2018-06-04 11:24:29 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/create_bin/Page_OPI Blue/input_password'
+
+2018-06-04 11:24:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/create_bin/Page_OPI Blue/input_password'
+
+2018-06-04 11:24:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-04 11:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-04 11:24:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:24:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:24:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Create a Bin' is clicked on
+
+2018-06-04 11:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Create a Bin' is clicked on
+
+2018-06-04 11:24:44 - [TEST_STEP][PASSED] - setText: Text 'Bin-1' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_name'
+
+2018-06-04 11:24:48 - [MESSAGE][PASSED] - Text 'Bin-1' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_name'
+
+2018-06-04 11:24:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b' is clicked on
+
+2018-06-04 11:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b' is clicked on
+
+2018-06-04 11:24:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Site-1' is clicked on
+
+2018-06-04 11:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Site-1' is clicked on
+
+2018-06-04 11:24:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-06-04 11:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-06-04 11:24:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-wizard[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites opi-bin-wizard"]/div[@class="content"]/div[@class="ng-scope"]/bin-wizard-step2-grain-info[@class="ng-scope ng-isolate-scope"]/bin-grain-info-edit[@class="ng-isolate-scope"]/form[@class="opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required"]/div[@class="opi-form-field full"]/div[@class="ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required"]/a[@class="select2-choice ui-select-match ng-scope select2-default"]/span[@class="select2-arrow ui-select-toggle"]/b[1]' not found)
+
+2018-06-04 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-wizard[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites opi-bin-wizard"]/div[@class="content"]/div[@class="ng-scope"]/bin-wizard-step2-grain-info[@class="ng-scope ng-isolate-scope"]/bin-grain-info-edit[@class="ng-isolate-scope"]/form[@class="opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required"]/div[@class="opi-form-field full"]/div[@class="ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required"]/a[@class="select2-choice ui-select-match ng-scope select2-default"]/span[@class="select2-arrow ui-select-toggle"]/b[1]' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_delete_bin_with_cables_ws_fan_plenum\\20180604_112408\\1528133125278.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-04 11:24:10 - [TEST_CASE][FAILED] - Test Cases/create_bin_with_cables_without_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-wizard[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites opi-bin-wizard"]/div[@class="content"]/div[@class="ng-scope"]/bin-wizard-step2-grain-info[@class="ng-scope ng-isolate-scope"]/bin-grain-info-edit[@class="ng-isolate-scope"]/form[@class="opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required"]/div[@class="opi-form-field full"]/div[@class="ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required"]/a[@class="select2-choice ui-select-match ng-scope select2-default"]/span[@class="select2-arrow ui-select-toggle"]/b[1]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_plenum_on_bin" classname="Test Cases/add_plenum_on_bin" status="PASSED">
+         <system-out><![CDATA[2018-06-04 11:25:28 - [TEST_CASE][PASSED] - Test Cases/add_plenum_on_bin: Test Cases/add_plenum_on_bin
+
+2018-06-04 11:25:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-04 11:25:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-04 11:25:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-04 11:25:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:25:39 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:25:39 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username'
+
+2018-06-04 11:25:45 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username'
+
+2018-06-04 11:25:45 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_password'
+
+2018-06-04 11:25:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_password'
+
+2018-06-04 11:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-04 11:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-04 11:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:25:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Plenum' is clicked on
+
+2018-06-04 11:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Plenum' is clicked on
+
+2018-06-04 11:26:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Add a Plenum Sensor' is clicked on
+
+2018-06-04 11:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Add a Plenum Sensor' is clicked on
+
+2018-06-04 11:26:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-04 11:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-04 11:26:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR' is clicked on
+
+2018-06-04 11:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR' is clicked on
+
+2018-06-04 11:26:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-04 11:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-04 11:26:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-04 11:26:09 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-04 11:26:09 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-04 11:26:11 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-04 11:26:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-04 11:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-04 11:26:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-04 11:26:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_fan_on_bin" classname="Test Cases/add_fan_on_bin" status="PASSED">
+         <system-out><![CDATA[2018-06-04 11:26:19 - [TEST_CASE][PASSED] - Test Cases/add_fan_on_bin: Test Cases/add_fan_on_bin
+
+2018-06-04 11:26:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-04 11:26:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-04 11:26:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:26:27 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:26:27 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username'
+
+2018-06-04 11:26:43 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username'
+
+2018-06-04 11:26:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_password'
+
+2018-06-04 11:26:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_password'
+
+2018-06-04 11:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-04 11:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-04 11:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:26:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Fans' is clicked on
+
+2018-06-04 11:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Fans' is clicked on
+
+2018-06-04 11:26:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Add a Fan' is clicked on
+
+2018-06-04 11:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Add a Fan' is clicked on
+
+2018-06-04 11:26:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-04 11:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-04 11:27:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR (MAC HFF0004)' is clicked on
+
+2018-06-04 11:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR (MAC HFF0004)' is clicked on
+
+2018-06-04 11:27:04 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-04 11:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-04 11:27:04 - [TEST_STEP][NOT_RUN] - waitForElementVisible: NOT_RUN: waitForElementVisible
+
+2018-06-04 11:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible
+
+2018-06-04 11:27:04 - [TEST_STEP][NOT_RUN] - waitForElementClickable: NOT_RUN: waitForElementClickable
+
+2018-06-04 11:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementClickable
+
+2018-06-04 11:27:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/spy_web/Page_Sites and Bins - OPI Blue (2)/b' is clicked on
+
+2018-06-04 11:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/spy_web/Page_Sites and Bins - OPI Blue (2)/b' is clicked on
+
+2018-06-04 11:27:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_1' is clicked on
+
+2018-06-04 11:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_1' is clicked on
+
+2018-06-04 11:27:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Manual' is clicked on
+
+2018-06-04 11:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Manual' is clicked on
+
+2018-06-04 11:27:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_Manual' is clicked on
+
+2018-06-04 11:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_Manual' is clicked on
+
+2018-06-04 11:27:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-04 11:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-04 11:27:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-04 11:27:16 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-04 11:27:16 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-04 11:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-04 11:27:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-04 11:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-04 11:27:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-04 11:27:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/delete_bin_with_cables_ws_fan_plenum" classname="Test Cases/delete_bin_with_cables_ws_fan_plenum" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' located by 'By.xpath: /html[@class=&quot;ng-scope&quot;]/body[@class=&quot;flex-column modal-open&quot;]/div[@class=&quot;modal fade ng-scope ng-isolate-scope in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/bin-details-container[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;opi-dialog bs opi-config-sites&quot;]/div[@class=&quot;content&quot;]/bin-cable-info-edit[@class=&quot;ng-scope ng-isolate-scope&quot;]/form[@class=&quot;opi-form bin-cable-info ng-pristine ng-valid&quot;]/div[@class=&quot;flex-row&quot;]/div[@class=&quot;flex-grow flex-grow-xs-off&quot;]/div[@class=&quot;opi-flex-table-holder&quot;]/div[@class=&quot;opi-flex-table&quot;]/div[@class=&quot;mapped-cable flex-grow ng-scope moisture-cable&quot;]/div[@class=&quot;row flex-row-space-between align-center&quot;]/a[@class=&quot;edit-btn&quot;]/i[@class=&quot;icon-pencil&quot;]' not found)"/>
+         <system-out><![CDATA[2018-06-04 11:27:25 - [TEST_CASE][FAILED] - Test Cases/delete_bin_with_cables_ws_fan_plenum: Test Cases/delete_bin_with_cables_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-details-container[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites"]/div[@class="content"]/bin-cable-info-edit[@class="ng-scope ng-isolate-scope"]/form[@class="opi-form bin-cable-info ng-pristine ng-valid"]/div[@class="flex-row"]/div[@class="flex-grow flex-grow-xs-off"]/div[@class="opi-flex-table-holder"]/div[@class="opi-flex-table"]/div[@class="mapped-cable flex-grow ng-scope moisture-cable"]/div[@class="row flex-row-space-between align-center"]/a[@class="edit-btn"]/i[@class="icon-pencil"]' not found)
+
+2018-06-04 11:27:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-04 11:27:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-04 11:27:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:27:34 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-04 11:27:34 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_username'
+
+2018-06-04 11:27:40 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_username'
+
+2018-06-04 11:27:40 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_password'
+
+2018-06-04 11:27:44 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_password'
+
+2018-06-04 11:27:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-04 11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-04 11:27:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-04 11:27:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-04 11:27:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Cables' is clicked on
+
+2018-06-04 11:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Cables' is clicked on
+
+2018-06-04 11:27:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Edit' is clicked on
+
+2018-06-04 11:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Edit' is clicked on
+
+2018-06-04 11:27:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-details-container[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites"]/div[@class="content"]/bin-cable-info-edit[@class="ng-scope ng-isolate-scope"]/form[@class="opi-form bin-cable-info ng-pristine ng-valid"]/div[@class="flex-row"]/div[@class="flex-grow flex-grow-xs-off"]/div[@class="opi-flex-table-holder"]/div[@class="opi-flex-table"]/div[@class="mapped-cable flex-grow ng-scope moisture-cable"]/div[@class="row flex-row-space-between align-center"]/a[@class="edit-btn"]/i[@class="icon-pencil"]' not found)
+
+2018-06-04 11:28:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-details-container[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites"]/div[@class="content"]/bin-cable-info-edit[@class="ng-scope ng-isolate-scope"]/form[@class="opi-form bin-cable-info ng-pristine ng-valid"]/div[@class="flex-row"]/div[@class="flex-grow flex-grow-xs-off"]/div[@class="opi-flex-table-holder"]/div[@class="opi-flex-table"]/div[@class="mapped-cable flex-grow ng-scope moisture-cable"]/div[@class="row flex-row-space-between align-center"]/a[@class="edit-btn"]/i[@class="icon-pencil"]' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_delete_bin_with_cables_ws_fan_plenum\\20180604_112408\\1528133308069.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-04 11:27:25 - [TEST_CASE][FAILED] - Test Cases/delete_bin_with_cables_ws_fan_plenum: Test Cases/delete_bin_with_cables_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-details-container[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites"]/div[@class="content"]/bin-cable-info-edit[@class="ng-scope ng-isolate-scope"]/form[@class="opi-form bin-cable-info ng-pristine ng-valid"]/div[@class="flex-row"]/div[@class="flex-grow flex-grow-xs-off"]/div[@class="opi-flex-table-holder"]/div[@class="opi-flex-table"]/div[@class="mapped-cable flex-grow ng-scope moisture-cable"]/div[@class="row flex-row-space-between align-center"]/a[@class="edit-btn"]/i[@class="icon-pencil"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 11:24:10 - [TEST_SUITE][FAILED] - create_delete_bin_with_cables_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-wizard[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites opi-bin-wizard"]/div[@class="content"]/div[@class="ng-scope"]/bin-wizard-step2-grain-info[@class="ng-scope ng-isolate-scope"]/bin-grain-info-edit[@class="ng-isolate-scope"]/form[@class="opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required"]/div[@class="opi-form-field full"]/div[@class="ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required"]/a[@class="select2-choice ui-select-match ng-scope select2-default"]/span[@class="select2-arrow ui-select-toggle"]/b[1]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-04 11:24:10 - [TEST_SUITE][FAILED] - create_delete_bin_with_cables_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="flex-column modal-open"]/div[@class="modal fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog modal-lg"]/div[@class="modal-content"]/bin-wizard[@class="ng-scope ng-isolate-scope"]/div[@class="opi-dialog bs opi-config-sites opi-bin-wizard"]/div[@class="content"]/div[@class="ng-scope"]/bin-wizard-step2-grain-info[@class="ng-scope ng-isolate-scope"]/bin-grain-info-edit[@class="ng-isolate-scope"]/form[@class="opi-form ng-pristine ng-valid-min ng-valid-max ng-valid-step ng-invalid ng-invalid-required"]/div[@class="opi-form-field full"]/div[@class="ui-select-container select2 select2-container ng-pristine ng-untouched ng-scope ng-empty ng-invalid ng-invalid-required"]/a[@class="select2-choice ui-select-match ng-scope select2-default"]/span[@class="select2-arrow ui-select-toggle"]/b[1]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

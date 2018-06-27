@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW" time="218" tests="2" failures="3" errors="0">
+   <testsuite name="removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW" tests="2" failures="3" errors="0" time="218" timestamp="2018-06-08 09:53:52" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\1528473284819.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\1528473327094.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\1528473406185.png"/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.62"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="50e0af5ecbcd49e931914a7b2f865e61"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/delete_bin_with_cables_ws_fan_plenum" classname="Test Cases/delete_bin_with_cables_ws_fan_plenum" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a ng-click=&quot;vm.select(tab)&quot; analytics-on=&quot;&quot; analytics-category=&quot;Bins - Structure 1&quot; analytics-event=&quot;Tab Click&quot; analytics-label=&quot;Fans&quot; class=&quot;ng-binding&quot;>...&lt;/a> is not clickable at point (1033, 221). Other element would receive the click: &lt;div class=&quot;opi-done-overlay ng-scope&quot; ng-if=&quot;vm.animationFinished === false&quot;>...&lt;/div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)"/>
+         <system-out><![CDATA[2018-06-08 09:53:53 - [TEST_CASE][FAILED] - Test Cases/delete_bin_with_cables_ws_fan_plenum: Test Cases/delete_bin_with_cables_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a ng-click="vm.select(tab)" analytics-on="" analytics-category="Bins - Structure 1" analytics-event="Tab Click" analytics-label="Fans" class="ng-binding">...</a> is not clickable at point (1033, 221). Other element would receive the click: <div class="opi-done-overlay ng-scope" ng-if="vm.animationFinished === false">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)
+
+2018-06-08 09:53:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 09:54:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 09:54:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:54:07 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:54:07 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_username'
+
+2018-06-08 09:54:13 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_username'
+
+2018-06-08 09:54:13 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_password'
+
+2018-06-08 09:54:17 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/input_password'
+
+2018-06-08 09:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:54:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 09:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 09:54:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 09:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 09:54:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Cables' is clicked on
+
+2018-06-08 09:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Cables' is clicked on
+
+2018-06-08 09:54:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Edit' is clicked on
+
+2018-06-08 09:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Edit' is clicked on
+
+2018-06-08 09:54:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' is clicked on
+
+2018-06-08 09:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil' is clicked on
+
+2018-06-08 09:54:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-cancel-circled unmap-ic' is clicked on
+
+2018-06-08 09:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-cancel-circled unmap-ic' is clicked on
+
+2018-06-08 09:54:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil_1' is clicked on
+
+2018-06-08 09:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-pencil_1' is clicked on
+
+2018-06-08 09:54:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-cancel-circled unmap-ic_1' is clicked on
+
+2018-06-08 09:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-cancel-circled unmap-ic_1' is clicked on
+
+2018-06-08 09:54:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-08 09:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-08 09:54:41 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-06-08 09:54:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-06-08 09:54:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' is present
+
+2018-06-08 09:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' is present
+
+2018-06-08 09:54:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a ng-click="vm.select(tab)" analytics-on="" analytics-category="Bins - Structure 1" analytics-event="Tab Click" analytics-label="Fans" class="ng-binding">...</a> is not clickable at point (1033, 221). Other element would receive the click: <div class="opi-done-overlay ng-scope" ng-if="vm.animationFinished === false">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)
+
+2018-06-08 09:54:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a ng-click="vm.select(tab)" analytics-on="" analytics-category="Bins - Structure 1" analytics-event="Tab Click" analytics-label="Fans" class="ng-binding">...</a> is not clickable at point (1033, 221). Other element would receive the click: <div class="opi-done-overlay ng-scope" ng-if="vm.animationFinished === false">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\1528473284819.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-08 09:53:53 - [TEST_CASE][FAILED] - Test Cases/delete_bin_with_cables_ws_fan_plenum: Test Cases/delete_bin_with_cables_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a ng-click="vm.select(tab)" analytics-on="" analytics-category="Bins - Structure 1" analytics-event="Tab Click" analytics-label="Fans" class="ng-binding">...</a> is not clickable at point (1033, 221). Other element would receive the click: <div class="opi-done-overlay ng-scope" ng-if="vm.animationFinished === false">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/delete_site_without_ws" classname="Test Cases/delete_site_without_ws" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;navLogOut&quot; ng-click=&quot;vm.logOut();&quot; analytics-category=&quot;Navigation Menu&quot; analytics-event=&quot;Menu Click&quot; analytics-label=&quot;Log out&quot;>...&lt;/a> is not clickable at point (213, 100). Other element would receive the click: &lt;div uib-modal-window=&quot;modal-window&quot; class=&quot;modal fade ng-scope ng-isolate-scope in&quot; role=&quot;dialog&quot; size=&quot;md&quot; index=&quot;0&quot; animate=&quot;animate&quot; ng-style=&quot;{'z-index': 1050 + $$topModalIndex*10, display: 'block'}&quot; tabindex=&quot;-1&quot; uib-modal-animation-class=&quot;fade&quot; modal-in-class=&quot;in&quot; modal-animation=&quot;true&quot; style=&quot;z-index: 1050; display: block;&quot;>...&lt;/div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 5b7c8ab0b83793666261f2c0aad559e7)"/>
+         <system-out><![CDATA[2018-06-08 09:54:48 - [TEST_CASE][FAILED] - Test Cases/delete_site_without_ws: Test Cases/delete_site_without_ws FAILED because (of) Unable to click on object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 5b7c8ab0b83793666261f2c0aad559e7)
+
+2018-06-08 09:54:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 09:54:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-08 09:54:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 09:54:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:54:59 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:54:59 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/delete_site/Page_OPI Blue/input_username'
+
+2018-06-08 09:55:04 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/delete_site/Page_OPI Blue/input_username'
+
+2018-06-08 09:55:04 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/delete_site/Page_OPI Blue/input_password'
+
+2018-06-08 09:55:09 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/delete_site/Page_OPI Blue/input_password'
+
+2018-06-08 09:55:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_site/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_site/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:55:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 09:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 09:55:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Sites' is clicked on
+
+2018-06-08 09:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Sites' is clicked on
+
+2018-06-08 09:55:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/button_Delete' is clicked on
+
+2018-06-08 09:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/button_Delete' is clicked on
+
+2018-06-08 09:55:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/button_Delete' is clicked on
+
+2018-06-08 09:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/button_Delete' is clicked on
+
+2018-06-08 09:55:21 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-08 09:55:22 - [MESSAGE][PASSED] - Object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-08 09:55:22 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-08 09:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-08 09:55:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 5b7c8ab0b83793666261f2c0aad559e7)
+
+2018-06-08 09:55:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 5b7c8ab0b83793666261f2c0aad559e7)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\1528473327094.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-08 09:54:48 - [TEST_CASE][FAILED] - Test Cases/delete_site_without_ws: Test Cases/delete_site_without_ws FAILED because (of) Unable to click on object 'Object Repository/delete_site/Page_Sites and Bins - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 5b7c8ab0b83793666261f2c0aad559e7)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/unmap_node" classname="Test Cases/unmap_node" status="PASSED">
+         <system-out><![CDATA[2018-06-08 09:55:30 - [TEST_CASE][PASSED] - Test Cases/unmap_node: Test Cases/unmap_node
+
+2018-06-08 09:55:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 09:55:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-08 09:55:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 09:55:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:55:41 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:55:41 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/unmap_node/Page_OPI Blue/input_username'
+
+2018-06-08 09:55:47 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/unmap_node/Page_OPI Blue/input_username'
+
+2018-06-08 09:55:47 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/unmap_node/Page_OPI Blue/input_password'
+
+2018-06-08 09:55:51 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/unmap_node/Page_OPI Blue/input_password'
+
+2018-06-08 09:55:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unmap_node/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/unmap_node/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:55:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unmap_node/Page_Dashboard - OPI Blue/span_Gateways and Nodes' is clicked on
+
+2018-06-08 09:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/unmap_node/Page_Dashboard - OPI Blue/span_Gateways and Nodes' is clicked on
+
+2018-06-08 09:55:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Nodes' is clicked on
+
+2018-06-08 09:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Nodes' is clicked on
+
+2018-06-08 09:56:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/button_Unmap' is clicked on
+
+2018-06-08 09:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/button_Unmap' is clicked on
+
+2018-06-08 09:56:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out' is present
+
+2018-06-08 09:56:03 - [MESSAGE][PASSED] - Object 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out' is present
+
+2018-06-08 09:56:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out' is clickable
+
+2018-06-08 09:56:05 - [MESSAGE][PASSED] - Object 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out' is clickable
+
+2018-06-08 09:56:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 09:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 09:56:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-08 09:56:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/unregister_node" classname="Test Cases/unregister_node" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Close                 R' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 8c195e499c937b889685699b4e8ee08c)"/>
+         <system-out><![CDATA[2018-06-08 09:56:12 - [TEST_CASE][FAILED] - Test Cases/unregister_node: Test Cases/unregister_node FAILED because (of) Unable to click on object 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Close                 R' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 8c195e499c937b889685699b4e8ee08c)
+
+2018-06-08 09:56:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 09:56:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 09:56:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:56:21 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:56:21 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/unregister_node/Page_OPI Blue/input_username'
+
+2018-06-08 09:56:27 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/unregister_node/Page_OPI Blue/input_username'
+
+2018-06-08 09:56:27 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/unregister_node/Page_OPI Blue/input_password'
+
+2018-06-08 09:56:31 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/unregister_node/Page_OPI Blue/input_password'
+
+2018-06-08 09:56:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_node/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_node/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:56:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_node/Page_Dashboard - OPI Blue/span_Gateways and Nodes' is clicked on
+
+2018-06-08 09:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_node/Page_Dashboard - OPI Blue/span_Gateways and Nodes' is clicked on
+
+2018-06-08 09:56:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/a_Nodes' is clicked on
+
+2018-06-08 09:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/a_Nodes' is clicked on
+
+2018-06-08 09:56:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Unregister' is clicked on
+
+2018-06-08 09:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Unregister' is clicked on
+
+2018-06-08 09:56:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Unregister_1' is clicked on
+
+2018-06-08 09:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Unregister_1' is clicked on
+
+2018-06-08 09:56:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Close                 R' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 8c195e499c937b889685699b4e8ee08c)
+
+2018-06-08 09:56:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Close                 R' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 8c195e499c937b889685699b4e8ee08c)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW\\20180608_095345\\1528473406185.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-08 09:56:12 - [TEST_CASE][FAILED] - Test Cases/unregister_node: Test Cases/unregister_node FAILED because (of) Unable to click on object 'Object Repository/unregister_node/Page_Gateways and Nodes - OPI Blue/button_Close                 R' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 8c195e499c937b889685699b4e8ee08c)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/unregister_gateway" classname="Test Cases/unregister_gateway" status="PASSED">
+         <system-out><![CDATA[2018-06-08 09:56:49 - [TEST_CASE][PASSED] - Test Cases/unregister_gateway: Test Cases/unregister_gateway
+
+2018-06-08 09:56:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 09:56:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-08 09:56:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 09:56:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:57:00 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 09:57:00 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/unregister_gateway/Page_OPI Blue/input_username'
+
+2018-06-08 09:57:06 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/unregister_gateway/Page_OPI Blue/input_username'
+
+2018-06-08 09:57:06 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/unregister_gateway/Page_OPI Blue/input_password'
+
+2018-06-08 09:57:10 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/unregister_gateway/Page_OPI Blue/input_password'
+
+2018-06-08 09:57:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_gateway/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_gateway/Page_OPI Blue/span_Log In' is clicked on
+
+2018-06-08 09:57:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_gateway/Page_Dashboard - OPI Blue/span_Gateways and Nodes' is clicked on
+
+2018-06-08 09:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_gateway/Page_Dashboard - OPI Blue/span_Gateways and Nodes' is clicked on
+
+2018-06-08 09:57:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/button_Unregister' is clicked on
+
+2018-06-08 09:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/button_Unregister' is clicked on
+
+2018-06-08 09:57:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/button_Unregister_1' is clicked on
+
+2018-06-08 09:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/button_Unregister_1' is clicked on
+
+2018-06-08 09:57:20 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/a_Log out' is present
+
+2018-06-08 09:57:22 - [MESSAGE][PASSED] - Object 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/a_Log out' is present
+
+2018-06-08 09:57:22 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/a_Log out' is clickable
+
+2018-06-08 09:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/a_Log out' is clickable
+
+2018-06-08 09:57:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 09:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/unregister_gateway/Page_Gateways and Nodes - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 09:57:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-08 09:57:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-08 09:53:52 - [TEST_SUITE][FAILED] - removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW: Test Cases/delete_bin_with_cables_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a ng-click="vm.select(tab)" analytics-on="" analytics-category="Bins - Structure 1" analytics-event="Tab Click" analytics-label="Fans" class="ng-binding">...</a> is not clickable at point (1033, 221). Other element would receive the click: <div class="opi-done-overlay ng-scope" ng-if="vm.animationFinished === false">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)]]></system-out>
+      <system-err><![CDATA[2018-06-08 09:53:52 - [TEST_SUITE][FAILED] - removePlenum_removeFan_deleteBin_deleteSite_unmapNode_unregNode_unregGW: Test Cases/delete_bin_with_cables_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/delete_bin_with_cables/delete_bin_with_cables_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Fans' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a ng-click="vm.select(tab)" analytics-on="" analytics-category="Bins - Structure 1" analytics-event="Tab Click" analytics-label="Fans" class="ng-binding">...</a> is not clickable at point (1033, 221). Other element would receive the click: <div class="opi-done-overlay ng-scope" ng-if="vm.animationFinished === false">...</div>
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 7bceb4a83f70d5eacf7c77a3ee02b857)]]></system-err>
+   </testsuite>
+</testsuites>

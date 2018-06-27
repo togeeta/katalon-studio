@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ng-pristine ng-untouched</name>
+   <tag></tag>
+   <elementGuidId>df4ccee7-3816-4b59-9a0b-194d8a01a686</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter date</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>format</name>
+      <type>Main</type>
+      <value>YYYY-MM-DD</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>vm.fillDateString</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model-options</name>
+      <type>Main</type>
+      <value>{ updateOn: 'blur' }</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-scope moment-picker-input ng-empty ng-invalid ng-invalid-required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;flex-column modal-open&quot;]/div[@class=&quot;modal fade ng-scope ng-isolate-scope in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/bin-wizard[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;opi-dialog bs opi-config-sites opi-bin-wizard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/bin-wizard-step3-capacity-fill-level[@class=&quot;ng-scope ng-isolate-scope&quot;]/bin-parameters-edit[@class=&quot;ng-isolate-scope&quot;]/form[@class=&quot;opi-form opi-bin-parameters-edit ng-pristine ng-scope ng-valid-min-date ng-valid-max-date ng-valid-min ng-valid-max ng-invalid ng-invalid-required&quot;]/div[@class=&quot;opi-form-field full&quot;]/div[@class=&quot;ng-pristine ng-untouched ng-valid ng-isolate-scope ng-empty ng-valid-min-date ng-valid-max-date&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-scope moment-picker-input ng-empty ng-invalid ng-invalid-required&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Fans</name>
+   <tag></tag>
+   <elementGuidId>1ad4d7ba-633f-4b53-b216-c733ee100237</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>vm.select(tab)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>analytics-category</name>
+      <type>Main</type>
+      <value>Bins - test1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>analytics-event</name>
+      <type>Main</type>
+      <value>Tab Click</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>analytics-label</name>
+      <type>Main</type>
+      <value>Fans</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Fans
+                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;binPanel3453fcaf-8a2e-46e4-b1a0-a4612201d8cc&quot;)/div[@class=&quot;panel-content&quot;]/opi-tabs[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;opi-tabs&quot;]/div[@class=&quot;titles&quot;]/div[@class=&quot;title ng-scope&quot;]/a[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

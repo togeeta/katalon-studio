@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_cases_execution" time="54" tests="1" failures="0" errors="0">
+   <testsuite name="test_cases_execution" tests="1" failures="0" errors="0" time="54" timestamp="2018-06-27 11:09:10" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/QA - Ver1.0/test_cases_execution">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\test_cases_execution\\20180627_110907"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\test_cases_execution\\20180627_110907\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="6a4bf176465de06c7c690d73548ff8c2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Check_bin_name_text_on_grain_tile" classname="Test Cases/Check_bin_name_text_on_grain_tile" status="PASSED">
+         <system-out><![CDATA[2018-06-27 11:09:11 - [TEST_CASE][PASSED] - Test Cases/Check_bin_name_text_on_grain_tile: Test Cases/Check_bin_name_text_on_grain_tile
+
+2018-06-27 11:09:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 11:09:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 11:09:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-27 11:09:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_login/Page_OPI Blue/span_Log In' does not exist
+
+2018-06-27 11:09:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_logout/Page_Dashboard - OPI Blue/a_Log out' does not exist
+
+2018-06-27 11:09:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_login/Page_OPI Blue/input_username' does not exist
+
+2018-06-27 11:09:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_login/Page_OPI Blue/input_password' does not exist
+
+2018-06-27 11:09:24 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-27 11:09:24 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_email'
+
+2018-06-27 11:09:29 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_email'
+
+2018-06-27 11:09:29 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_password'
+
+2018-06-27 11:09:33 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_password'
+
+2018-06-27 11:09:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/valid_login_logout/Page_OPI Blue/button_Sign In' is clicked on
+
+2018-06-27 11:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/valid_login_logout/Page_OPI Blue/button_Sign In' is clicked on
+
+2018-06-27 11:09:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/bin_name_on_grain_tile/Page_Dashboard - OPI Blue/a_Grain Condition' is clicked on
+
+2018-06-27 11:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/bin_name_on_grain_tile/Page_Dashboard - OPI Blue/a_Grain Condition' is clicked on
+
+2018-06-27 11:09:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/bin_name_on_grain_tile/Page_Grain Condition - OPI Blue/span_FirstBin' is clicked on
+
+2018-06-27 11:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/bin_name_on_grain_tile/Page_Grain Condition - OPI Blue/span_FirstBin' is clicked on
+
+2018-06-27 11:09:41 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/bin_name_on_grain_tile/Page_Grain Condition - OPI Blue/span_FirstBin' is: 'FirstBin'
+
+2018-06-27 11:09:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/bin_name_on_grain_tile/Page_Grain Condition - OPI Blue/span_FirstBin' is: 'FirstBin'
+
+2018-06-27 11:09:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-27 11:09:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-27 11:09:48 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/bin_name_on_grain_tile/Page_Grain Condition - OPI Blue/span_FirstBin' is hovered
+
+2018-06-27 11:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/bin_name_on_grain_tile/Page_Grain Condition - OPI Blue/span_FirstBin' is hovered
+
+2018-06-27 11:09:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-27 11:09:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-27 11:09:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/valid_login_logout/Page_OPI Blue/a_Log out' is clicked on
+
+2018-06-27 11:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/valid_login_logout/Page_OPI Blue/a_Log out' is clicked on
+
+2018-06-27 11:10:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-27 11:10:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-27 11:09:10 - [TEST_SUITE][PASSED] - test_cases_execution: Test Cases/Check_bin_name_text_on_grain_tile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

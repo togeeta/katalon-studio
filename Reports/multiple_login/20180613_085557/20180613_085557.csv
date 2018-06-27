@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+multiple_login,Chrome 67.0.3396.79,,2018-06-13 08:55:59,2018-06-13 08:56:54,54.967s,PASSED
+,,,,,,
+Test Cases/valid_login,Chrome 67.0.3396.79,,2018-06-13 08:56:00,2018-06-13 08:56:29,29.504s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-13 08:56:01,2018-06-13 08:56:08,7.502s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-13 08:56:08,2018-06-13 08:56:12,3.397s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 67.0.3396.79,,2018-06-13 08:56:12,2018-06-13 08:56:13,1.068s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 08:56:13,2018-06-13 08:56:17,4.786s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 08:56:17,2018-06-13 08:56:22,4.285s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-13 08:56:22,2018-06-13 08:56:25,3.666s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-13 08:56:25,2018-06-13 08:56:27,1.957s,PASSED
+,,,,,,
+Test Cases/valid_login,Chrome 67.0.3396.79,,2018-06-13 08:56:29,2018-06-13 08:56:54,24.913s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-13 08:56:29,2018-06-13 08:56:34,4.954s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-13 08:56:34,2018-06-13 08:56:38,3.261s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 67.0.3396.79,,2018-06-13 08:56:38,2018-06-13 08:56:39,1.025s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 08:56:39,2018-06-13 08:56:43,4.626s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 08:56:43,2018-06-13 08:56:48,4.233s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-13 08:56:48,2018-06-13 08:56:50,2.765s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-13 08:56:50,2018-06-13 08:56:52,1.921s,PASSED

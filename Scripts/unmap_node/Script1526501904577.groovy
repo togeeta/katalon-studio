@@ -22,13 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ra.managegrain.com/#/dashboard/userPreferences')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('unmap_node/Page_OPI Blue/input_username'), 'opiopi20171+00028@gmail.com')
+WebUI.setText(GlobalVariable.setUsername, GlobalVariable.username)
 
-WebUI.setText(findTestObject('unmap_node/Page_OPI Blue/input_password'), 'gWF7Q4IlreZBZUpxglt7')
+WebUI.setText(GlobalVariable.setPassword, GlobalVariable.password)
 
-WebUI.click(findTestObject('unmap_node/Page_OPI Blue/span_Log In'))
+WebUI.click(GlobalVariable.logInBtn)
 
 WebUI.click(findTestObject('unmap_node/Page_Dashboard - OPI Blue/span_Gateways and Nodes'))
 
@@ -36,11 +36,11 @@ WebUI.click(findTestObject('unmap_node/Page_Gateways and Nodes - OPI Blue/a_Node
 
 WebUI.click(findTestObject('unmap_node/Page_Gateways and Nodes - OPI Blue/button_Unmap'))
 
-WebUI.waitForElementPresent(findTestObject('unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out'), 5)
+WebUI.waitForElementPresent(GlobalVariable.logOut, 5)
 
-WebUI.waitForElementClickable(findTestObject('unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out'), 5)
+WebUI.waitForElementClickable(GlobalVariable.logOut, 5)
 
-WebUI.click(findTestObject('unmap_node/Page_Gateways and Nodes - OPI Blue/a_Log out'))
+WebUI.click(GlobalVariable.logOut)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>RA_opi_blue_cloud</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL</description>
+      <initValue>'https://ra.managegrain.com/#/dashboard/userPreferences'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User Name</description>
+      <initValue>'opiopi20171+00028@gmail.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password</description>
+      <initValue>'gWF7Q4IlreZBZUpxglt7'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Log In Button</description>
+      <initValue>findTestObject('valid_login/Page_OPI Blue/span_Log In')</initValue>
+      <name>logInBtn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Log Out Button</description>
+      <initValue>findTestObject('valid_logout/Page_Dashboard - OPI Blue/a_Log out')</initValue>
+      <name>logOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Set text to username</description>
+      <initValue>findTestObject('valid_login/Page_OPI Blue/input_username')</initValue>
+      <name>setUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Set text to password</description>
+      <initValue>findTestObject('valid_login/Page_OPI Blue/input_password')</initValue>
+      <name>setPassword</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

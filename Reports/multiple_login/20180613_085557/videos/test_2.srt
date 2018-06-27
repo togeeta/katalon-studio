@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. openBrowser
+
+2
+00:00:04,954 --> 00:00:04,955
+5. navigateToUrl
+
+3
+00:00:08,215 --> 00:00:08,216
+9. Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle()
+
+4
+00:00:09,240 --> 00:00:09,241
+13. setText
+
+5
+00:00:13,867 --> 00:00:13,869
+17. setText
+
+6
+00:00:18,101 --> 00:00:18,103
+21. click
+
+7
+00:00:20,867 --> 00:00:20,868
+25. closeBrowser
+

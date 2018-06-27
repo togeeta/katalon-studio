@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_new_sms</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>963a1f58-d269-426b-be74-0e51744b6fb5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ef2724d-975e-4917-893e-dc1c6ae123b3</id>
+      <masked>false</masked>
+      <name>smsNumber</name>
+   </variable>
+</TestCaseEntity>

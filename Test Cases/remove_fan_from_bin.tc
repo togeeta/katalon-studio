@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>remove_fan_from_bin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eadf83fe-1f31-4482-9fc9-e3d2d07541e4</testCaseGuid>
+</TestCaseEntity>

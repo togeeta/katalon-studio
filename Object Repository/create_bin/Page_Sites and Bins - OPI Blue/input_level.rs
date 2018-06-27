@@ -3,7 +3,7 @@
    <description></description>
    <name>input_level</name>
    <tag></tag>
-   <elementGuidId>5d35908e-2995-4bb8-979b-219e14a88766</elementGuidId>
+   <elementGuidId>7e17e5b7-fa5b-46b5-bd95-bc0dd3a9b9b2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-max</name>
       <type>Main</type>
-      <value>100000</value>
+      <value>1000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

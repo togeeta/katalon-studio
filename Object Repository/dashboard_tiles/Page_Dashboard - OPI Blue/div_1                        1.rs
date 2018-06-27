@@ -4,6 +4,12 @@
    <name>div_1                        1</name>
    <tag></tag>
    <elementGuidId>f74819d4-9e29-4304-b17e-d096e579ac15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;globalTile&quot;)[count(. | //div[@id = 'globalTile']) = count(//div[@id = 'globalTile'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,7 +62,7 @@
       <value>fullTileBody</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -72,7 +78,7 @@
                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

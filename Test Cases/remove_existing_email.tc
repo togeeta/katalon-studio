@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>remove_existing_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4404c729-dbb3-4f90-b81b-047bc68dd033</testCaseGuid>
+</TestCaseEntity>

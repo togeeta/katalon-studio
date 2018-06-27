@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Whats this</name>
+   <tag></tag>
+   <elementGuidId>6d02546d-f146-4d64-aa3a-559cd47c5b32</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-help-circled help-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>vm.showEquilibriumHint()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    What's this?
+                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site_ec041b07-3a2f-41f5-9fac-fe437e626c50&quot;)/div[@class=&quot;opi-panel&quot;]/div[@class=&quot;panel-content&quot;]/div[@class=&quot;bin-status-group ng-scope&quot;]/div[@class=&quot;bin-group-container&quot;]/bin-grain-condition[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;opi-bin-grain-condition&quot;]/div[@class=&quot;tabs&quot;]/div[@class=&quot;tab ng-scope&quot;]/div[@class=&quot;ng-binding ng-scope&quot;]/i[@class=&quot;icon-help-circled help-icon&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>delete_bin_with_cables_ws_fan_plenum</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e949268-beb1-4a1d-b04b-eb9a66d7c90e</testCaseGuid>
+</TestCaseEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_capacity</name>
    <tag></tag>
-   <elementGuidId>ad106fb1-5bb9-4795-911d-fc6273d04fd9</elementGuidId>
+   <elementGuidId>90522636-61c8-44ef-95eb-2e66c5c5f7bf</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

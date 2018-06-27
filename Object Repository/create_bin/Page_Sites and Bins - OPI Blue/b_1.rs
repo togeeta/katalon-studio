@@ -3,7 +3,7 @@
    <description></description>
    <name>b_1</name>
    <tag></tag>
-   <elementGuidId>ce0094b1-b083-499f-8ef7-afff9e96f9dd</elementGuidId>
+   <elementGuidId>41b5d7f9-01ba-4e60-8f1f-79c2448725b3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

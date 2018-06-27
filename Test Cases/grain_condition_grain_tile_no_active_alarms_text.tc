@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>grain_condition_grain_tile_no_active_alarms_text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b5e771f-92b2-4fef-8fae-7fb5a6eab047</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>57d17415-e7fd-4027-b554-96daa8534acd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M1.0715659492539341e-15,-17.5A17.5,17.5,0,1,1,-1.0715659492539341e-15,17.5A17.5,17.5,0,1,1,1.0715659492539341e-15,-17.5Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#F45337</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(27.5, 27.5)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site_ec041b07-3a2f-41f5-9fac-fe437e626c50&quot;)/div[@class=&quot;opi-panel&quot;]/div[@class=&quot;panel-content&quot;]/div[@class=&quot;site-header flex-row xs-flex-column-start-start&quot;]/site-viz[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;site-display-mount&quot;]/div[@class=&quot;site-viz mt-2&quot;]/div[@class=&quot;horizontal-scroll-container&quot;]/svg[@class=&quot;site-viz-svg&quot;]/g[1]/g[2]/g[@class=&quot;cursor-pointer&quot;]/g[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

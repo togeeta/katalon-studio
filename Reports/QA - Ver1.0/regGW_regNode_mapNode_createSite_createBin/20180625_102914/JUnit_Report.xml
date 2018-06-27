@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="regGW_regNode_mapNode_createSite_createBin" time="236" tests="0" failures="5" errors="0">
+   <testsuite name="regGW_regNode_mapNode_createSite_createBin" tests="0" failures="5" errors="0" time="236" timestamp="2018-06-25 10:29:17" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/QA - Ver1.0/regGW_regNode_mapNode_createSite_createBin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944203266.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944250237.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944296625.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944343030.png, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944389058.png"/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="ba995c3b60383aefc4bb3408d33c20d0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/register_gateway" classname="Test Cases/register_gateway" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)"/>
+         <system-out><![CDATA[2018-06-25 10:29:18 - [TEST_CASE][FAILED] - Test Cases/register_gateway: Test Cases/register_gateway FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:29:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-25 10:29:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-25 10:29:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:29:32 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:29:32 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:30:04 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944203266.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-25 10:29:18 - [TEST_CASE][FAILED] - Test Cases/register_gateway: Test Cases/register_gateway FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/register_node" classname="Test Cases/register_node" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)"/>
+         <system-out><![CDATA[2018-06-25 10:30:06 - [TEST_CASE][FAILED] - Test Cases/register_node: Test Cases/register_node FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:30:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-25 10:30:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-25 10:30:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-25 10:30:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:30:19 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:30:19 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:30:51 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944250237.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-25 10:30:06 - [TEST_CASE][FAILED] - Test Cases/register_node: Test Cases/register_node FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/map_node" classname="Test Cases/map_node" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)"/>
+         <system-out><![CDATA[2018-06-25 10:30:53 - [TEST_CASE][FAILED] - Test Cases/map_node: Test Cases/map_node FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:30:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-25 10:30:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-25 10:31:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-25 10:31:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:31:06 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:31:06 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:31:37 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944296625.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-25 10:30:53 - [TEST_CASE][FAILED] - Test Cases/map_node: Test Cases/map_node FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/create_first_site" classname="Test Cases/create_first_site" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)"/>
+         <system-out><![CDATA[2018-06-25 10:31:40 - [TEST_CASE][FAILED] - Test Cases/create_first_site: Test Cases/create_first_site FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:31:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-25 10:31:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-25 10:31:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-25 10:31:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:31:52 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:31:52 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:32:24 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944343030.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-25 10:31:40 - [TEST_CASE][FAILED] - Test Cases/create_first_site: Test Cases/create_first_site FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/create_first_bin_with_single_site_ws" classname="Test Cases/create_first_bin_with_single_site_ws" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)"/>
+         <system-out><![CDATA[2018-06-25 10:32:26 - [TEST_CASE][FAILED] - Test Cases/create_first_bin_with_single_site_ws: Test Cases/create_first_bin_with_single_site_ws FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:32:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-25 10:32:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-25 10:32:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-25 10:32:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:32:38 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 10:32:38 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+
+2018-06-25 10:33:10 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\regGW_regNode_mapNode_createSite_createBin\\20180625_102914\\1529944389058.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-25 10:32:26 - [TEST_CASE][FAILED] - Test Cases/create_first_bin_with_single_site_ws: Test Cases/create_first_bin_with_single_site_ws FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-25 10:29:17 - [TEST_SUITE][FAILED] - regGW_regNode_mapNode_createSite_createBin: Test Cases/register_gateway FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-25 10:29:17 - [TEST_SUITE][FAILED] - regGW_regNode_mapNode_createSite_createBin: Test Cases/register_gateway FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/valid_login/Page_OPI Blue/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/valid_login/Page_OPI Blue/input_username' located by 'By.xpath: //input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

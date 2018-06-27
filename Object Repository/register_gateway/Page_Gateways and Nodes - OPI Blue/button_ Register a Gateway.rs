@@ -4,17 +4,23 @@
    <name>button_ Register a Gateway</name>
    <tag></tag>
    <elementGuidId>42430eca-4718-4db5-8ae7-f8a3670b66ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;gatewaysContainer&quot;)/div[@class=&quot;list-picker-container layout-xs-column layout-align-xs-start-start layout-align-space-between-center layout-row&quot;]/div[@class=&quot;register-button-container ng-scope&quot;]/button[@id=&quot;registerGatewayButton&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -56,7 +62,7 @@
       <value>Register a Gateway</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -65,7 +71,7 @@
             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

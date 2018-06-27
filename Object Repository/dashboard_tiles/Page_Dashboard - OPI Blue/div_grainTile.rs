@@ -4,6 +4,12 @@
    <name>div_grainTile</name>
    <tag></tag>
    <elementGuidId>fdbcf57c-632b-4c6d-be49-34cc8c0ca619</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;grainTile&quot;)[count(. | //div[@id = 'grainTile']) = count(//div[@id = 'grainTile'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,7 +62,7 @@
       <value>tileBody</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -3,7 +3,13 @@
    <description></description>
    <name>button_Continue</name>
    <tag></tag>
-   <elementGuidId>4e6ef1aa-495c-4927-b7b5-33cff2c7a5ef</elementGuidId>
+   <elementGuidId>e89f553c-3522-4c2a-ba2a-fa9b77b0433e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;createBinConfirmButton&quot;)[count(. | //button[@id = 'createBinConfirmButton']) = count(//button[@id = 'createBinConfirmButton'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>binForm.$invalid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -51,7 +57,7 @@
                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

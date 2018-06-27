@@ -3,7 +3,7 @@
    <description></description>
    <name>button_View Bin</name>
    <tag></tag>
-   <elementGuidId>4652830e-5a73-419d-9e11-2b8581b8c31a</elementGuidId>
+   <elementGuidId>532792ee-386d-443b-a95f-235b44e7e9c6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

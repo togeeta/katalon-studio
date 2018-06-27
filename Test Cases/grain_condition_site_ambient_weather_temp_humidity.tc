@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>grain_condition_site_ambient_weather_temp_humidity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d33e823-24a9-412d-a954-f0e6b7f476cb</testCaseGuid>
+</TestCaseEntity>

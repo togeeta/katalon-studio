@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Temperature</name>
+   <tag></tag>
+   <elementGuidId>61b0d921-6396-4417-bbab-73811165c94f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>reading-label ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Temperature: 
+                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site_ec041b07-3a2f-41f5-9fac-fe437e626c50&quot;)/div[@class=&quot;sidebar-container ng-scope&quot;]/site-weather-sidebar[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;opi-site-weather-sidebar&quot;]/div[@class=&quot;floating-content&quot;]/div[@class=&quot;weather-station ng-scope&quot;]/div[@class=&quot;reading-container&quot;]/div[@class=&quot;reading-content&quot;]/div[@class=&quot;reading-label&quot;]/span[@class=&quot;reading-label ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

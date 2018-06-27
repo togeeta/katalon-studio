@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add_new_sms_multiple" time="66" tests="0" failures="1" errors="0">
+   <testsuite name="add_new_sms_multiple" tests="0" failures="1" errors="0" time="66" timestamp="2018-06-13 14:35:26" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/add_new_sms_multiple">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_new_sms_multiple\\20180613_143524"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_new_sms_multiple\\20180613_143524\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_new_sms_multiple\\20180613_143524\\1528922187502.png"/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="b60de94bc06c935b6f34454436fca9cf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/add_new_sms_multiple" classname="Test Cases/add_new_sms_multiple" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)"/>
+         <system-out><![CDATA[2018-06-13 14:35:26 - [TEST_CASE][FAILED] - Test Cases/add_new_sms_multiple: Test Cases/add_new_sms_multiple FAILED because (of) Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)
+
+2018-06-13 14:35:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-13 14:35:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-13 14:35:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-13 14:35:38 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-13 14:35:38 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/add_new_sms/Page_OPI Blue/input_username'
+
+2018-06-13 14:35:44 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/add_new_sms/Page_OPI Blue/input_username'
+
+2018-06-13 14:35:44 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/add_new_sms/Page_OPI Blue/input_password'
+
+2018-06-13 14:35:48 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/add_new_sms/Page_OPI Blue/input_password'
+
+2018-06-13 14:35:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_new_sms/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-13 14:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/add_new_sms/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-13 14:35:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_new_sms/Page_Dashboard - OPI Blue/button_Preferences' is clicked on
+
+2018-06-13 14:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/add_new_sms/Page_Dashboard - OPI Blue/button_Preferences' is clicked on
+
+2018-06-13 14:35:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/button_add' is clicked on
+
+2018-06-13 14:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/button_add' is clicked on
+
+2018-06-13 14:35:57 - [TEST_STEP][FAILED] - setText: Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)
+
+2018-06-13 14:36:28 - [MESSAGE][FAILED] - Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_new_sms_multiple\\20180613_143524\\1528922187502.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-13 14:35:26 - [TEST_CASE][FAILED] - Test Cases/add_new_sms_multiple: Test Cases/add_new_sms_multiple FAILED because (of) Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-13 14:35:26 - [TEST_SUITE][FAILED] - add_new_sms_multiple: Test Cases/add_new_sms_multiple FAILED because (of) Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-13 14:35:26 - [TEST_SUITE][FAILED] - add_new_sms_multiple: Test Cases/add_new_sms_multiple FAILED because (of) Unable to set text '+14031141234' of object 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add_new_sms/Page_Preferences - OPI Blue/input_smsNumber1' located by 'By.xpath: //input[@name = 'smsNumber1' and @id = 'smsNumber1' and @type = 'tel' and @placeholder = '+14035551212']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

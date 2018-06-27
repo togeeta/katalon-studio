@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Blackbean</name>
    <tag></tag>
-   <elementGuidId>b25de0fd-8b3f-4de4-bad2-5a14842eb501</elementGuidId>
+   <elementGuidId>6a99cf03-29a3-4fcb-91f9-995e24d0e4b4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create_bin_with_cables_fan_plenum" time="38" tests="0" failures="3" errors="0">
+   <testsuite name="create_bin_with_cables_fan_plenum" tests="0" failures="3" errors="0" time="38" timestamp="2018-05-30 09:35:24" hostname="GeetaB - OPI-LT66.opisystems.local" id="Test Suites/create_bin_with_cables_fan_plenum">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_093522"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_093522\\execution0.log, C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_093522\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="GeetaB - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="484b6794-dfd7-465e-a549-f2a80ddeebad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/create_bin_with_cables_without_ws_fan_plenum" classname="Test Cases/create_bin_with_cables_without_ws_fan_plenum" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})"/>
+         <system-out><![CDATA[2018-05-30 09:35:25 - [TEST_CASE][FAILED] - Test Cases/create_bin_with_cables_without_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})
+
+2018-05-30 09:35:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 09:35:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 09:35:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:35:35 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:35:35 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})
+
+2018-05-30 09:35:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-30 09:35:37 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-out>
+         <system-err><![CDATA[2018-05-30 09:35:25 - [TEST_CASE][FAILED] - Test Cases/create_bin_with_cables_without_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_fan_on_bin" classname="Test Cases/add_fan_on_bin" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35324/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0e4303bd-cae0-49f5-ba0e-16b636fa59ab
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})"/>
+         <system-out><![CDATA[2018-05-30 09:35:39 - [TEST_CASE][FAILED] - Test Cases/add_fan_on_bin: Test Cases/add_fan_on_bin FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35324/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0e4303bd-cae0-49f5-ba0e-16b636fa59ab
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})
+
+2018-05-30 09:35:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 09:35:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 09:35:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 09:35:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:35:47 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:35:47 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35324/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0e4303bd-cae0-49f5-ba0e-16b636fa59ab
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})
+
+2018-05-30 09:35:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-30 09:35:49 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35324/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0e4303bd-cae0-49f5-ba0e-16b636fa59ab
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-out>
+         <system-err><![CDATA[2018-05-30 09:35:39 - [TEST_CASE][FAILED] - Test Cases/add_fan_on_bin: Test Cases/add_fan_on_bin FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35324/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0e4303bd-cae0-49f5-ba0e-16b636fa59ab
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_plenum_on_bin" classname="Test Cases/add_plenum_on_bin" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33220/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 484b6794-dfd7-465e-a549-f2a80ddeebad
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})"/>
+         <system-out><![CDATA[2018-05-30 09:35:51 - [TEST_CASE][FAILED] - Test Cases/add_plenum_on_bin: Test Cases/add_plenum_on_bin FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33220/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 484b6794-dfd7-465e-a549-f2a80ddeebad
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})
+
+2018-05-30 09:35:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 09:35:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 09:35:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 09:35:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:35:58 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:35:58 - [TEST_STEP][FAILED] - setText: Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33220/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 484b6794-dfd7-465e-a549-f2a80ddeebad
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})
+
+2018-05-30 09:36:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-30 09:36:00 - [MESSAGE][FAILED] - Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33220/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 484b6794-dfd7-465e-a549-f2a80ddeebad
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-out>
+         <system-err><![CDATA[2018-05-30 09:35:51 - [TEST_CASE][FAILED] - Test Cases/add_plenum_on_bin: Test Cases/add_plenum_on_bin FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33220/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 484b6794-dfd7-465e-a549-f2a80ddeebad
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 09:35:24 - [TEST_SUITE][FAILED] - create_bin_with_cables_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-out>
+      <system-err><![CDATA[2018-05-30 09:35:24 - [TEST_SUITE][FAILED] - create_bin_with_cables_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum FAILED because (of) Unable to set text 'opiopi20171+00028@gmail.com' of object 'Object Repository/create_bin/Page_OPI Blue/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22392/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 8c10e525-0b0a-40da-a381-1fdfd6c05f6e
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @id = 'username' and @type = 'email' and @placeholder = 'Email']})]]></system-err>
+   </testsuite>
+</testsuites>

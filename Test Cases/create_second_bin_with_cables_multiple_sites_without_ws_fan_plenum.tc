@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_second_bin_with_cables_multiple_sites_without_ws_fan_plenum</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b502b547-3f85-48a1-8170-201942a068ac</testCaseGuid>
+</TestCaseEntity>

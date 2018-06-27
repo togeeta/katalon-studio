@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add_remove_multiple_members" time="395" tests="7" failures="1" errors="0">
+   <testsuite name="add_remove_multiple_members" tests="7" failures="1" errors="0" time="395" timestamp="2018-06-12 08:49:15" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/add_remove_multiple_members">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_remove_multiple_members\\20180612_084908"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_remove_multiple_members\\20180612_084908\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_remove_multiple_members\\20180612_084908\\1528815002991.png"/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="6eb90781979eab5c7d332ff81591e889"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/add_very_first_member" classname="Test Cases/add_very_first_member" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;navLogOut&quot; ng-click=&quot;vm.logOut();&quot; analytics-category=&quot;Navigation Menu&quot; analytics-event=&quot;Menu Click&quot; analytics-label=&quot;Log out&quot;>...&lt;/a> is not clickable at point (213, 100). Other element would receive the click: &lt;div uib-modal-window=&quot;modal-window&quot; class=&quot;modal fade ng-scope ng-isolate-scope in&quot; role=&quot;dialog&quot; size=&quot;md&quot; index=&quot;0&quot; animate=&quot;animate&quot; ng-style=&quot;{'z-index': 1050 + $$topModalIndex*10, display: 'block'}&quot; tabindex=&quot;-1&quot; uib-modal-animation-class=&quot;fade&quot; modal-in-class=&quot;in&quot; modal-animation=&quot;true&quot; style=&quot;z-index: 1050; display: block;&quot;>...&lt;/div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)"/>
+         <system-out><![CDATA[2018-06-12 08:49:16 - [TEST_CASE][FAILED] - Test Cases/add_very_first_member: Test Cases/add_very_first_member FAILED because (of) Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)
+
+2018-06-12 08:49:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:49:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:49:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:49:30 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:49:30 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_very_first_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:49:36 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_very_first_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:49:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_very_first_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:49:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_very_first_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:49:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_very_first_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/add_very_first_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_very_first_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/add_very_first_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_very_first_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/add_very_first_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:49:48 - [TEST_STEP][PASSED] - setText: Text 'Test-0@opisystems.com' is set on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:49:53 - [MESSAGE][PASSED] - Text 'Test-0@opisystems.com' is set on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:49:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_very_first_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/add_very_first_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:49:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_very_first_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/add_very_first_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:49:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:49:58 - [MESSAGE][PASSED] - Object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:49:58 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:50:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)
+
+2018-06-12 08:50:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\add_remove_multiple_members\\20180612_084908\\1528815002991.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-12 08:49:16 - [TEST_CASE][FAILED] - Test Cases/add_very_first_member: Test Cases/add_very_first_member FAILED because (of) Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_second_multiple_members" classname="Test Cases/add_second_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:50:06 - [TEST_CASE][PASSED] - Test Cases/add_second_multiple_members: Test Cases/add_second_multiple_members
+
+2018-06-12 08:50:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:50:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-12 08:50:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:50:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:50:17 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:50:17 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:50:23 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:50:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:50:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:50:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:50:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:50:34 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171@gmail.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:50:39 - [MESSAGE][PASSED] - Text 'opiopi20171@gmail.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:50:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:50:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:50:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:50:44 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:50:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:50:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_second_multiple_members" classname="Test Cases/add_second_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:50:53 - [TEST_CASE][PASSED] - Test Cases/add_second_multiple_members: Test Cases/add_second_multiple_members
+
+2018-06-12 08:50:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:50:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:50:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:51:02 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:51:02 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:51:08 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:51:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:51:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:51:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:51:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:51:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:51:19 - [TEST_STEP][PASSED] - setText: Text 'Test-1@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:51:23 - [MESSAGE][PASSED] - Text 'Test-1@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:51:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:51:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:51:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:51:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:51:31 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:51:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:51:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:51:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_second_multiple_members" classname="Test Cases/add_second_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:51:38 - [TEST_CASE][PASSED] - Test Cases/add_second_multiple_members: Test Cases/add_second_multiple_members
+
+2018-06-12 08:51:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:51:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:51:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:51:45 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:51:45 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:51:51 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:51:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:51:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:51:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:51:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:52:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:52:02 - [TEST_STEP][PASSED] - setText: Text 'Test-2@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:52:07 - [MESSAGE][PASSED] - Text 'Test-2@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:52:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:52:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:52:12 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:52:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:52:14 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:52:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:52:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:52:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_second_multiple_members" classname="Test Cases/add_second_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:52:21 - [TEST_CASE][PASSED] - Test Cases/add_second_multiple_members: Test Cases/add_second_multiple_members
+
+2018-06-12 08:52:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:52:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:52:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:52:29 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:52:29 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:52:35 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:52:35 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:52:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:52:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:52:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:52:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:52:46 - [TEST_STEP][PASSED] - setText: Text 'Test-3@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:52:51 - [MESSAGE][PASSED] - Text 'Test-3@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:52:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:52:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:52:55 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:52:56 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:52:56 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:52:58 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:52:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:53:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:53:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_second_multiple_members" classname="Test Cases/add_second_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:53:05 - [TEST_CASE][PASSED] - Test Cases/add_second_multiple_members: Test Cases/add_second_multiple_members
+
+2018-06-12 08:53:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:53:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:53:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:53:13 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:53:13 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:53:19 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:53:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:53:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:53:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:53:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:53:30 - [TEST_STEP][PASSED] - setText: Text 'Test-4@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:53:35 - [MESSAGE][PASSED] - Text 'Test-4@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:53:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:53:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:53:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:53:40 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:53:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:53:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:53:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:53:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_second_multiple_members" classname="Test Cases/add_second_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:53:49 - [TEST_CASE][PASSED] - Test Cases/add_second_multiple_members: Test Cases/add_second_multiple_members
+
+2018-06-12 08:53:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:53:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:53:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:53:57 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:53:57 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:54:03 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/add_member/Page_OPI Blue/input_username'
+
+2018-06-12 08:54:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:54:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/add_member/Page_OPI Blue/input_password'
+
+2018-06-12 08:54:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:54:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:54:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_ Add Member' is clicked on
+
+2018-06-12 08:54:14 - [TEST_STEP][PASSED] - setText: Text 'Test-5@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:54:19 - [MESSAGE][PASSED] - Text 'Test-5@opisystems.com' is set on object 'Object Repository/add_member/Page_Members - OPI Blue/input_email'
+
+2018-06-12 08:54:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/label_fa checkbox-with-label' is clicked on
+
+2018-06-12 08:54:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/button_Invite' is clicked on
+
+2018-06-12 08:54:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:54:24 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:54:24 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:54:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/add_member/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:54:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/remove_multiple_members" classname="Test Cases/remove_multiple_members" status="PASSED">
+         <system-out><![CDATA[2018-06-12 08:54:33 - [TEST_CASE][PASSED] - Test Cases/remove_multiple_members: Test Cases/remove_multiple_members
+
+2018-06-12 08:54:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 08:54:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 08:54:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:54:41 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-12 08:54:41 - [TEST_STEP][PASSED] - setText: Text 'geetab@opisystems.com' is set on object 'Object Repository/remove_multiple_members/Page_OPI Blue/input_username'
+
+2018-06-12 08:54:47 - [MESSAGE][PASSED] - Text 'geetab@opisystems.com' is set on object 'Object Repository/remove_multiple_members/Page_OPI Blue/input_username'
+
+2018-06-12 08:54:47 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/remove_multiple_members/Page_OPI Blue/input_password'
+
+2018-06-12 08:54:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/remove_multiple_members/Page_OPI Blue/input_password'
+
+2018-06-12 08:54:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-12 08:54:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Dashboard - OPI Blue/span_Members' is clicked on
+
+2018-06-12 08:54:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:54:57 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:05 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:12 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:19 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:19 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:21 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:27 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is present
+
+2018-06-12 08:55:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clickable
+
+2018-06-12 08:55:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove' is clicked on
+
+2018-06-12 08:55:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/button_Remove_1' is clicked on
+
+2018-06-12 08:55:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/a_Log out' is present
+
+2018-06-12 08:55:42 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:55:44 - [MESSAGE][PASSED] - Object 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/a_Log out' is clickable
+
+2018-06-12 08:55:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/remove_multiple_members/Page_Members - OPI Blue/a_Log out' is clicked on
+
+2018-06-12 08:55:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 08:55:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-12 08:49:15 - [TEST_SUITE][FAILED] - add_remove_multiple_members: Test Cases/add_very_first_member FAILED because (of) Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)]]></system-out>
+      <system-err><![CDATA[2018-06-12 08:49:15 - [TEST_SUITE][FAILED] - add_remove_multiple_members: Test Cases/add_very_first_member FAILED because (of) Unable to click on object 'Object Repository/add_very_first_member/Page_Members - OPI Blue/a_Log out' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a id="navLogOut" ng-click="vm.logOut();" analytics-category="Navigation Menu" analytics-event="Menu Click" analytics-label="Log out">...</a> is not clickable at point (213, 100). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 527678177c4ea57a8f5b1292d59d139c)]]></system-err>
+   </testsuite>
+</testsuites>

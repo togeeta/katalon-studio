@@ -4,6 +4,12 @@
    <name>a_Dashboard</name>
    <tag></tag>
    <elementGuidId>ea48079b-0cd2-400f-9ba9-f673a1b20454</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;navDashboard&quot;)[count(. | //a[@id = 'navDashboard']) = count(//a[@id = 'navDashboard'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -63,7 +69,7 @@
       <value>{ active: isStateActive('dashboard') }</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -73,7 +79,7 @@
                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

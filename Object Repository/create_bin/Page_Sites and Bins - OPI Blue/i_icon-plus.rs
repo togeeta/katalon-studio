@@ -3,7 +3,7 @@
    <description></description>
    <name>i_icon-plus</name>
    <tag></tag>
-   <elementGuidId>6f59d381-75a7-4307-bf47-b416139e0986</elementGuidId>
+   <elementGuidId>4115b810-c4bf-4c69-aa8f-a6c18f9cb72e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

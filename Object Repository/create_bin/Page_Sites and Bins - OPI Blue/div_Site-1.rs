@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Site-1</name>
    <tag></tag>
-   <elementGuidId>72f3af77-4cd0-4523-8461-a2a023be036e</elementGuidId>
+   <elementGuidId>0c6ce1cf-e1c6-44ec-aa8b-eca2f5569f3e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

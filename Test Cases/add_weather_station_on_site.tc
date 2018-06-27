@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_weather_station_on_site</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee2bd5d6-672e-4de2-8999-4bfcbe1dbded</testCaseGuid>
+</TestCaseEntity>

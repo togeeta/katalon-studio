@@ -4,10 +4,16 @@
    <name>button_View Settings</name>
    <tag></tag>
    <elementGuidId>6b2732da-cd07-4ec5-8dae-799a2c615b32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,14 +34,14 @@
       <value>dashboard.sites({ siteId: site.id })</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#/dashboard/config/sites?siteId=5c0d4a94-da3b-4d40-a1c5-968d7047dc2d</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -44,10 +50,10 @@
                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;site_5c0d4a94-da3b-4d40-a1c5-968d7047dc2d&quot;)/div[@class=&quot;opi-panel&quot;]/div[@class=&quot;panel-header&quot;]/button[@class=&quot;opi-btn primary view-settings-btn ng-binding&quot;]</value>
+      <value>/html/body</value>
    </webElementProperties>
 </WebElementEntity>

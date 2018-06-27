@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_cases_execution" time="58" tests="1" failures="0" errors="0">
+   <testsuite name="test_cases_execution" tests="1" failures="0" errors="0" time="58" timestamp="2018-06-25 12:18:05" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/QA - Ver1.0/test_cases_execution">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\test_cases_execution\\20180625_121802"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\QA - Ver1.0\\test_cases_execution\\20180625_121802\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="6a925bf06824009d8c5fa27dab2f28d9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dashboard_tiles" classname="Test Cases/dashboard_tiles" status="PASSED">
+         <system-out><![CDATA[2018-06-25 12:18:05 - [TEST_CASE][PASSED] - Test Cases/dashboard_tiles: Test Cases/dashboard_tiles
+
+2018-06-25 12:18:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-25 12:18:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-25 12:18:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 12:18:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_login/Page_OPI Blue/span_Log In' does not exist
+
+2018-06-25 12:18:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_logout/Page_Dashboard - OPI Blue/a_Log out' does not exist
+
+2018-06-25 12:18:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_login/Page_OPI Blue/input_username' does not exist
+
+2018-06-25 12:18:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/valid_login/Page_OPI Blue/input_password' does not exist
+
+2018-06-25 12:18:20 - [MESSAGE][PASSED] - Navigate to 'http://qa.managegrain.com' successfully
+
+2018-06-25 12:18:20 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_email'
+
+2018-06-25 12:18:25 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_email'
+
+2018-06-25 12:18:25 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_password'
+
+2018-06-25 12:18:29 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/valid_login_logout/Page_OPI Blue/input_password'
+
+2018-06-25 12:18:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/valid_login_logout/Page_OPI Blue/button_Sign In' is clicked on
+
+2018-06-25 12:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/valid_login_logout/Page_OPI Blue/button_Sign In' is clicked on
+
+2018-06-25 12:18:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_Grain Condition' is clicked on
+
+2018-06-25 12:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_Grain Condition' is clicked on
+
+2018-06-25 12:18:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_Inventory    0 bu' is clicked on
+
+2018-06-25 12:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_Inventory    0 bu' is clicked on
+
+2018-06-25 12:18:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_Global View    1 0   Si' is clicked on
+
+2018-06-25 12:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_Global View    1 0   Si' is clicked on
+
+2018-06-25 12:18:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_System Status    0' is clicked on
+
+2018-06-25 12:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/figure_System Status    0' is clicked on
+
+2018-06-25 12:18:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_tiles/qa/Page_OPI Blue/a_Dashboard' is clicked on
+
+2018-06-25 12:18:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/valid_login_logout/Page_OPI Blue/a_Log out' is clicked on
+
+2018-06-25 12:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/valid_login_logout/Page_OPI Blue/a_Log out' is clicked on
+
+2018-06-25 12:18:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-25 12:19:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-25 12:18:05 - [TEST_SUITE][PASSED] - test_cases_execution: Test Cases/dashboard_tiles]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

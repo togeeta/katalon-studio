@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Alarms</name>
+   <tag></tag>
+   <elementGuidId>cdcdcd63-879e-43ed-9e27-8684e40dafa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@ng-click = 'vm.select(tab)' and @analytics-event = 'Tab Click' and @analytics-label = 'Alarms' and @class = 'ng-binding']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>vm.select(tab)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>analytics-event</name>
+      <type>Main</type>
+      <value>Tab Click</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>analytics-label</name>
+      <type>Main</type>
+      <value>Alarms</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Alarms
+                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;viewContent&quot;)/div[@class=&quot;flex-column ng-scope&quot;]/div[@class=&quot;bin-data-container&quot;]/div[@class=&quot;bin-data-content&quot;]/div[@class=&quot;flex-column-start-start ng-scope&quot;]/bin-info[@class=&quot;ng-isolate-scope&quot;]/opi-tabs[@class=&quot;opi-bin-info ng-isolate-scope&quot;]/div[@class=&quot;opi-tabs&quot;]/div[@class=&quot;titles&quot;]/div[@class=&quot;title ng-scope active&quot;]/a[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

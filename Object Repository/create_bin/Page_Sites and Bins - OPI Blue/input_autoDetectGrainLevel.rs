@@ -3,7 +3,7 @@
    <description></description>
    <name>input_autoDetectGrainLevel</name>
    <tag></tag>
-   <elementGuidId>883079e6-0b4c-4ef8-bfe0-b5a3e3e5c428</elementGuidId>
+   <elementGuidId>72492ca5-67a9-496b-bb2d-b023d11b66e4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

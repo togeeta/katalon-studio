@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>remove_weather_station_from_site</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>daf176c0-0b65-4e5a-9b3a-03f3f1204374</testCaseGuid>
+</TestCaseEntity>

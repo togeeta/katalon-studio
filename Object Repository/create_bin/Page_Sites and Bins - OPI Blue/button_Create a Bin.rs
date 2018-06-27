@@ -3,7 +3,13 @@
    <description></description>
    <name>button_Create a Bin</name>
    <tag></tag>
-   <elementGuidId>b5413151-6c99-466a-96d4-2ed6568a847e</elementGuidId>
+   <elementGuidId>ba2f3ce4-7a36-4ef9-982f-12242d060a31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;createBinButton&quot;)[count(. | //button[@id = 'createBinButton']) = count(//button[@id = 'createBinButton'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,7 +62,7 @@
       <value>Create a Bin</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -65,7 +71,7 @@
             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create_bin_with_cables_fan_plenum" time="198" tests="2" failures="1" errors="0">
+   <testsuite name="create_bin_with_cables_fan_plenum" tests="2" failures="1" errors="0" time="198" timestamp="2018-05-30 09:30:04" hostname="GeetaB - OPI-LT66.opisystems.local" id="Test Suites/create_bin_with_cables_fan_plenum">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_092956"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_092956\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_092956\\1527694348710.png"/>
+         <property name="hostName" value="GeetaB - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="845a9eeaa4d4857295c5d9ba8cd6665c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/create_bin_with_cables_without_ws_fan_plenum" classname="Test Cases/create_bin_with_cables_without_ws_fan_plenum" status="PASSED">
+         <system-out><![CDATA[2018-05-30 09:30:05 - [TEST_CASE][PASSED] - Test Cases/create_bin_with_cables_without_ws_fan_plenum: Test Cases/create_bin_with_cables_without_ws_fan_plenum
+
+2018-05-30 09:30:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 09:30:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 09:30:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:30:18 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:30:18 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin/Page_OPI Blue/input_username'
+
+2018-05-30 09:30:24 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin/Page_OPI Blue/input_username'
+
+2018-05-30 09:30:24 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_bin/Page_OPI Blue/input_password'
+
+2018-05-30 09:30:28 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_bin/Page_OPI Blue/input_password'
+
+2018-05-30 09:30:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_OPI Blue/button_Log In' is clicked on
+
+2018-05-30 09:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_OPI Blue/button_Log In' is clicked on
+
+2018-05-30 09:30:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-05-30 09:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-05-30 09:30:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-05-30 09:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-05-30 09:30:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Create a Bin' is clicked on
+
+2018-05-30 09:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Create a Bin' is clicked on
+
+2018-05-30 09:30:39 - [TEST_STEP][PASSED] - setText: Text 'Bin-1' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_name'
+
+2018-05-30 09:30:44 - [MESSAGE][PASSED] - Text 'Bin-1' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_name'
+
+2018-05-30 09:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b' is clicked on
+
+2018-05-30 09:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b' is clicked on
+
+2018-05-30 09:30:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Site-1' is clicked on
+
+2018-05-30 09:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Site-1' is clicked on
+
+2018-05-30 09:30:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-05-30 09:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-05-30 09:30:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' is clicked on
+
+2018-05-30 09:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_1' is clicked on
+
+2018-05-30 09:30:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_919' is clicked on
+
+2018-05-30 09:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_919' is clicked on
+
+2018-05-30 09:30:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_2' is clicked on
+
+2018-05-30 09:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/b_2' is clicked on
+
+2018-05-30 09:30:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Blackbean' is clicked on
+
+2018-05-30 09:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Blackbean' is clicked on
+
+2018-05-30 09:30:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:02 - [TEST_STEP][PASSED] - setText: Text '2018-01-01' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_ng-pristine ng-untouched'
+
+2018-05-30 09:31:06 - [MESSAGE][PASSED] - Text '2018-01-01' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_ng-pristine ng-untouched'
+
+2018-05-30 09:31:06 - [TEST_STEP][PASSED] - setText: Text '1000' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_capacity'
+
+2018-05-30 09:31:10 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/input_capacity'
+
+2018-05-30 09:31:10 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-05-30 09:31:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-05-30 09:31:10 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-05-30 09:31:10 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-05-30 09:31:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/i_icon-plus' is clicked on
+
+2018-05-30 09:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/i_icon-plus' is clicked on
+
+2018-05-30 09:31:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_edit-btn' is clicked on
+
+2018-05-30 09:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_edit-btn' is clicked on
+
+2018-05-30 09:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Add Cables' is clicked on
+
+2018-05-30 09:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/div_Add Cables' is clicked on
+
+2018-05-30 09:31:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin/create_bin_ws_contd_btn/Page_Sites and Bins - OPI Blue/button_Continue' is present
+
+2018-05-30 09:31:25 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin/create_bin_ws_contd_btn/Page_Sites and Bins - OPI Blue/button_Continue' is present
+
+2018-05-30 09:31:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin/create_bin_ws_contd_btn/Page_Sites and Bins - OPI Blue/button_Continue' is clickable
+
+2018-05-30 09:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin/create_bin_ws_contd_btn/Page_Sites and Bins - OPI Blue/button_Continue' is clickable
+
+2018-05-30 09:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/create_bin_ws_contd_btn/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-05-30 09:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/create_bin_ws_contd_btn/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-05-30 09:31:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-05-30 09:31:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_3' is clicked on
+
+2018-05-30 09:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_Continue_3' is clicked on
+
+2018-05-30 09:31:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_View Bin' is present
+
+2018-05-30 09:31:34 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_View Bin' is present
+
+2018-05-30 09:31:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_View Bin' is clickable
+
+2018-05-30 09:31:36 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_View Bin' is clickable
+
+2018-05-30 09:31:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_View Bin' is clicked on
+
+2018-05-30 09:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/button_View Bin' is clicked on
+
+2018-05-30 09:31:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-05-30 09:31:40 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-05-30 09:31:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-05-30 09:31:42 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-05-30 09:31:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-05-30 09:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-05-30 09:31:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-30 09:31:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_fan_on_bin" classname="Test Cases/add_fan_on_bin" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)"/>
+         <system-out><![CDATA[2018-05-30 09:31:49 - [TEST_CASE][FAILED] - Test Cases/add_fan_on_bin: Test Cases/add_fan_on_bin FAILED because (of) Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)
+
+2018-05-30 09:31:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 09:31:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 09:31:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:31:58 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:31:58 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username'
+
+2018-05-30 09:32:04 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username'
+
+2018-05-30 09:32:04 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_password'
+
+2018-05-30 09:32:08 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_password'
+
+2018-05-30 09:32:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-05-30 09:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-05-30 09:32:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-05-30 09:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-05-30 09:32:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-05-30 09:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-05-30 09:32:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Fans' is clicked on
+
+2018-05-30 09:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Fans' is clicked on
+
+2018-05-30 09:32:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Add a Fan' is clicked on
+
+2018-05-30 09:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Add a Fan' is clicked on
+
+2018-05-30 09:32:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-05-30 09:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-05-30 09:32:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR (MAC HFF0004)' is clicked on
+
+2018-05-30 09:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR (MAC HFF0004)' is clicked on
+
+2018-05-30 09:32:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)
+
+2018-05-30 09:32:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\create_bin_with_cables_fan_plenum\\20180530_092956\\1527694348710.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 09:31:49 - [TEST_CASE][FAILED] - Test Cases/add_fan_on_bin: Test Cases/add_fan_on_bin FAILED because (of) Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_plenum_on_bin" classname="Test Cases/add_plenum_on_bin" status="PASSED">
+         <system-out><![CDATA[2018-05-30 09:32:32 - [TEST_CASE][PASSED] - Test Cases/add_plenum_on_bin: Test Cases/add_plenum_on_bin
+
+2018-05-30 09:32:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 09:32:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 09:32:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 09:32:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:32:43 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-05-30 09:32:43 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username'
+
+2018-05-30 09:32:49 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username'
+
+2018-05-30 09:32:49 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_password'
+
+2018-05-30 09:32:53 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_password'
+
+2018-05-30 09:32:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-05-30 09:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-05-30 09:32:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-05-30 09:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-05-30 09:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-05-30 09:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-05-30 09:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Plenum' is clicked on
+
+2018-05-30 09:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Plenum' is clicked on
+
+2018-05-30 09:33:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Add a Plenum Sensor' is clicked on
+
+2018-05-30 09:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Add a Plenum Sensor' is clicked on
+
+2018-05-30 09:33:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-05-30 09:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-05-30 09:33:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR' is clicked on
+
+2018-05-30 09:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/div_089CDB - FNR' is clicked on
+
+2018-05-30 09:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-05-30 09:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-05-30 09:33:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-05-30 09:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-05-30 09:33:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-05-30 09:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-05-30 09:33:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-05-30 09:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-05-30 09:33:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-30 09:33:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 09:30:04 - [TEST_SUITE][FAILED] - create_bin_with_cables_fan_plenum: Test Cases/add_fan_on_bin FAILED because (of) Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)]]></system-out>
+      <system-err><![CDATA[2018-05-30 09:30:04 - [TEST_SUITE][FAILED] - create_bin_with_cables_fan_plenum: Test Cases/add_fan_on_bin FAILED because (of) Unable to click on object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OPI-LT66', ip: '172.16.6.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\geetab\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c103fbd7d150447674071fffbdff7755)]]></system-err>
+   </testsuite>
+</testsuites>

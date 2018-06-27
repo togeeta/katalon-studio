@@ -3,7 +3,13 @@
    <description></description>
    <name>span_Sites and Bins</name>
    <tag></tag>
-   <elementGuidId>eb71a85d-939b-4b3d-ae54-7bf6ba7032ac</elementGuidId>
+   <elementGuidId>f63243fd-bc28-4fd6-a604-4f8fb3f0231a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;navConfigSitesAndBins&quot;)/span[@class=&quot;active-underline&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,14 +27,14 @@
       <value>active-underline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Sites and Bins</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

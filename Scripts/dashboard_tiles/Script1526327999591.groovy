@@ -20,22 +20,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+/*WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ra.managegrain.com/#/dashboard/userPreferences')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('dashboard_tiles/Page_OPI Blue/input_username'), 'opiopi20171+00028@gmail.com')
+WebUI.setText(GlobalVariable.setUsername, GlobalVariable.username)
 
-WebUI.setText(findTestObject('dashboard_tiles/Page_OPI Blue/input_password'), 'gWF7Q4IlreZBZUpxglt7')
+WebUI.setText(GlobalVariable.setPassword, GlobalVariable.password)
 
-WebUI.click(findTestObject('dashboard_tiles/Page_OPI Blue/button_Log In'))
+WebUI.click(GlobalVariable.logInBtn)
 
 WebUI.click(findTestObject('dashboard_tiles/Page_Dashboard - OPI Blue/a_Dashboard'))
 
 WebUI.click(findTestObject('dashboard_tiles/Page_Dashboard - OPI Blue/figure_Grain Condition'))
 
-WebUI.click(findTestObject('dashboard_tiles/Page_Grain Condition - OPI Blue/a_Dashboard'))
+WebUI.click(findTestObject('dashboard_tiles/Page_Dashboard - OPI Blue/a_Dashboard'))
 
+//WebUI.click(findTestObject('dashboard_tiles/Page_Grain Condition - OPI Blue/a_Dashboard'))
 WebUI.click(findTestObject('dashboard_tiles/Page_Dashboard - OPI Blue/figure_Inventory'))
 
 WebUI.click(findTestObject('dashboard_tiles/Page_Inventory - OPI Blue/a_Dashboard'))
@@ -48,7 +49,39 @@ WebUI.click(findTestObject('dashboard_tiles/Page_Dashboard - OPI Blue/figure_Sys
 
 WebUI.click(findTestObject('dashboard_tiles/Page_System Status - OPI Blue/a_Dashboard'))
 
-WebUI.click(findTestObject('dashboard_tiles/Page_Dashboard - OPI Blue/a_Log out'))
+WebUI.click(GlobalVariable.logOut)
+
+WebUI.closeBrowser()*/
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
+
+WebUI.setText(GlobalVariable.setUsername, GlobalVariable.username)
+
+WebUI.setText(GlobalVariable.setPassword, GlobalVariable.password)
+
+WebUI.click(GlobalVariable.logInBtn)
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/a_Dashboard'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/figure_Grain Condition'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/a_Dashboard'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/figure_Inventory    0 bu'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/a_Dashboard'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/figure_Global View    1 0   Si'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/a_Dashboard'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/figure_System Status    0'))
+
+WebUI.click(findTestObject('dashboard_tiles/qa/Page_OPI Blue/a_Dashboard'))
+
+WebUI.click(GlobalVariable.logOut)
 
 WebUI.closeBrowser()
 

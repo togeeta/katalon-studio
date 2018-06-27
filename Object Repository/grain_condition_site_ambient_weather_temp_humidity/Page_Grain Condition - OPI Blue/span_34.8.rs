@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_34.8</name>
+   <tag></tag>
+   <elementGuidId>8556a10c-9fea-4a97-a03d-a265aff54d73</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>value ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>vm.value !== null</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                  34.8%
+                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site_ec041b07-3a2f-41f5-9fac-fe437e626c50&quot;)/div[@class=&quot;sidebar-container ng-scope&quot;]/site-weather-sidebar[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;opi-site-weather-sidebar&quot;]/div[@class=&quot;floating-content&quot;]/div[@class=&quot;weather-station ng-scope&quot;]/div[@class=&quot;reading-container&quot;]/div[@class=&quot;reading-content&quot;]/weather-sensor-reading[@class=&quot;ng-isolate-scope&quot;]/span[@class=&quot;weather-sensor-reading&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;value ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

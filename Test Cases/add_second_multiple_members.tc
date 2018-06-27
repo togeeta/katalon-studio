@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_second_multiple_members</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c14029fd-78ba-4a24-9748-00d2061b59cd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a87a1ae-4da7-4228-b72d-197f5d1d59c3</id>
+      <masked>false</masked>
+      <name>inputEmail</name>
+   </variable>
+</TestCaseEntity>

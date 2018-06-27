@@ -3,7 +3,13 @@
    <description></description>
    <name>a_Bins</name>
    <tag></tag>
-   <elementGuidId>f7316f1c-91b9-40df-b861-03b04330ac90</elementGuidId>
+   <elementGuidId>7d752ed2-d8c4-4d8c-9f3c-5e8b7dd2fa9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;selectNodeListButton&quot;)[count(. | //a[@id = 'selectNodeListButton']) = count(//a[@id = 'selectNodeListButton'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,14 +62,14 @@
       <value>Bins</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#/dashboard/config/bins</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -72,7 +78,7 @@
             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="regGW_regNode_mapNode_createSite_createBin" time="221" tests="2" failures="1" errors="0">
+   <testsuite name="regGW_regNode_mapNode_createSite_createBin" tests="2" failures="1" errors="0" time="221" timestamp="2018-06-08 12:04:15" hostname="geetab - OPI-LT66.opisystems.local" id="Test Suites/regGW_regNode_mapNode_createSite_createBin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\regGW_regNode_mapNode_createSite_createBin\\20180608_120413"/>
+         <property name="logFiles" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\regGW_regNode_mapNode_createSite_createBin\\20180608_120413\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\regGW_regNode_mapNode_createSite_createBin\\20180608_120413\\1528481167672.png"/>
+         <property name="hostName" value="geetab - OPI-LT66.opisystems.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.62"/>
+         <property name="hostAddress" value="172.16.6.51"/>
+         <property name="sessionId" value="cd87815924aa1d79f209c6f0865180ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum" classname="Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)"/>
+         <system-out><![CDATA[2018-06-08 12:04:15 - [TEST_CASE][FAILED] - Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum: Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)
+
+2018-06-08 12:04:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 12:04:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 12:04:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 12:04:27 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 12:04:27 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_OPI Blue/input_username'
+
+2018-06-08 12:04:33 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_OPI Blue/input_username'
+
+2018-06-08 12:04:33 - [TEST_STEP][PASSED] - setText: Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_OPI Blue/input_password'
+
+2018-06-08 12:04:38 - [MESSAGE][PASSED] - Text 'gWF7Q4IlreZBZUpxglt7' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_OPI Blue/input_password'
+
+2018-06-08 12:04:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-08 12:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-08 12:04:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 12:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 12:04:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 12:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 12:04:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Create a Bin' is clicked on
+
+2018-06-08 12:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Create a Bin' is clicked on
+
+2018-06-08 12:04:48 - [TEST_STEP][PASSED] - setText: Text 'SecondBin' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/input_name'
+
+2018-06-08 12:04:52 - [MESSAGE][PASSED] - Text 'SecondBin' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/input_name'
+
+2018-06-08 12:04:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-06-08 12:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue' is clicked on
+
+2018-06-08 12:04:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-08 12:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-08 12:04:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/div_919' is clicked on
+
+2018-06-08 12:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/div_919' is clicked on
+
+2018-06-08 12:04:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is present
+
+2018-06-08 12:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is present
+
+2018-06-08 12:05:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is visible
+
+2018-06-08 12:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is visible
+
+2018-06-08 12:05:02 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is clickable
+
+2018-06-08 12:05:04 - [MESSAGE][PASSED] - Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is clickable
+
+2018-06-08 12:05:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is clicked on
+
+2018-06-08 12:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/spy_web/Page_Sites and Bins - OPI Blue/b' is clicked on
+
+2018-06-08 12:05:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/div_Blackbean' is clicked on
+
+2018-06-08 12:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/div_Blackbean' is clicked on
+
+2018-06-08 12:05:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:11 - [TEST_STEP][PASSED] - setText: Text '2018-01-01' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/input_ng-pristine ng-untouched'
+
+2018-06-08 12:05:15 - [MESSAGE][PASSED] - Text '2018-01-01' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/input_ng-pristine ng-untouched'
+
+2018-06-08 12:05:15 - [TEST_STEP][PASSED] - setText: Text '10000' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/input_capacity'
+
+2018-06-08 12:05:20 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/input_capacity'
+
+2018-06-08 12:05:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-plus' is clicked on
+
+2018-06-08 12:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/i_icon-plus' is clicked on
+
+2018-06-08 12:05:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_edit-btn' is clicked on
+
+2018-06-08 12:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/a_edit-btn' is clicked on
+
+2018-06-08 12:05:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_1' is clicked on
+
+2018-06-08 12:05:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' is not present after 2 second(s)
+
+2018-06-08 12:05:34 - [MESSAGE][WARNING] - Object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' is not present after 2 second(s)
+
+2018-06-08 12:05:34 - [TEST_STEP][PASSED] - waitForElementClickable: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found
+
+2018-06-08 12:05:37 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found
+
+2018-06-08 12:05:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)
+
+2018-06-08 12:06:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)
+[[ATTACHMENT|C:\\Users\\geetab\\Katalon Studio\\RA_opi_blue_cloud\\Reports\\regGW_regNode_mapNode_createSite_createBin\\20180608_120413\\1528481167672.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-08 12:04:15 - [TEST_CASE][FAILED] - Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum: Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_plenum_on_bin" classname="Test Cases/add_plenum_on_bin" status="PASSED">
+         <system-out><![CDATA[2018-06-08 12:06:11 - [TEST_CASE][PASSED] - Test Cases/add_plenum_on_bin: Test Cases/add_plenum_on_bin
+
+2018-06-08 12:06:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 12:06:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-08 12:06:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 12:06:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 12:06:21 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 12:06:21 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username'
+
+2018-06-08 12:06:27 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_username'
+
+2018-06-08 12:06:27 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_password'
+
+2018-06-08 12:06:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/input_password'
+
+2018-06-08 12:06:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-08 12:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-08 12:06:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 12:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 12:06:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 12:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 12:06:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Plenum' is clicked on
+
+2018-06-08 12:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Plenum' is clicked on
+
+2018-06-08 12:06:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Add a Plenum Sensor' is clicked on
+
+2018-06-08 12:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Add a Plenum Sensor' is clicked on
+
+2018-06-08 12:06:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-08 12:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-08 12:06:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/spy_web/Page_Sites and Bins - OPI Blue/div_089CDB-FN' is clicked on
+
+2018-06-08 12:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/spy_web/Page_Sites and Bins - OPI Blue/div_089CDB-FN' is clicked on
+
+2018-06-08 12:06:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-08 12:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-08 12:06:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-08 12:06:51 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-08 12:06:51 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-08 12:06:53 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-08 12:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 12:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_plenum_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 12:06:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-08 12:06:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_fan_on_bin" classname="Test Cases/add_fan_on_bin" status="PASSED">
+         <system-out><![CDATA[2018-06-08 12:07:00 - [TEST_CASE][PASSED] - Test Cases/add_fan_on_bin: Test Cases/add_fan_on_bin
+
+2018-06-08 12:07:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-08 12:07:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-08 12:07:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 12:07:09 - [MESSAGE][PASSED] - Navigate to 'https://ra.managegrain.com/#/dashboard/userPreferences' successfully
+
+2018-06-08 12:07:09 - [TEST_STEP][PASSED] - setText: Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username'
+
+2018-06-08 12:07:15 - [MESSAGE][PASSED] - Text 'opiopi20171+00028@gmail.com' is set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_username'
+
+2018-06-08 12:07:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_password'
+
+2018-06-08 12:07:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/input_password'
+
+2018-06-08 12:07:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-08 12:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_OPI Blue/button_Log In' is clicked on
+
+2018-06-08 12:07:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 12:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Dashboard - OPI Blue/span_Sites and Bins' is clicked on
+
+2018-06-08 12:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 12:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Bins' is clicked on
+
+2018-06-08 12:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Fans' is clicked on
+
+2018-06-08 12:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Fans' is clicked on
+
+2018-06-08 12:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Add a Fan' is clicked on
+
+2018-06-08 12:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Add a Fan' is clicked on
+
+2018-06-08 12:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-08 12:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Select' is clicked on
+
+2018-06-08 12:07:33 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-06-08 12:07:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-06-08 12:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin/create_bin_add_fan/Page_Sites and Bins - OPI Blue/spy_web/Page_Sites and Bins - OPI Blue/div_089CDB-FN (MAC HFF0004)' is clicked on
+
+2018-06-08 12:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin/create_bin_add_fan/Page_Sites and Bins - OPI Blue/spy_web/Page_Sites and Bins - OPI Blue/div_089CDB-FN (MAC HFF0004)' is clicked on
+
+2018-06-08 12:07:35 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-08 12:07:35 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-08 12:07:35 - [TEST_STEP][NOT_RUN] - waitForElementVisible: NOT_RUN: waitForElementVisible
+
+2018-06-08 12:07:35 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible
+
+2018-06-08 12:07:35 - [TEST_STEP][NOT_RUN] - waitForElementClickable: NOT_RUN: waitForElementClickable
+
+2018-06-08 12:07:35 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementClickable
+
+2018-06-08 12:07:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/spy_web/Page_Sites and Bins - OPI Blue (2)/b' is clicked on
+
+2018-06-08 12:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/spy_web/Page_Sites and Bins - OPI Blue (2)/b' is clicked on
+
+2018-06-08 12:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_1' is clicked on
+
+2018-06-08 12:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_1' is clicked on
+
+2018-06-08 12:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Manual' is clicked on
+
+2018-06-08 12:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/span_Manual' is clicked on
+
+2018-06-08 12:07:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_Manual' is clicked on
+
+2018-06-08 12:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/div_Manual' is clicked on
+
+2018-06-08 12:07:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-08 12:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/button_Save' is clicked on
+
+2018-06-08 12:07:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-08 12:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is present
+
+2018-06-08 12:07:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-08 12:07:49 - [MESSAGE][PASSED] - Object 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clickable
+
+2018-06-08 12:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 12:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/create_bin_add_fan_only/Page_Sites and Bins - OPI Blue/a_Log out' is clicked on
+
+2018-06-08 12:07:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-08 12:07:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-08 12:04:15 - [TEST_SUITE][FAILED] - regGW_regNode_mapNode_createSite_createBin: Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-08 12:04:15 - [TEST_SUITE][FAILED] - regGW_regNode_mapNode_createSite_createBin: Test Cases/create_second_bin_with_cables_single_site_without_ws_fan_plenum FAILED because (of) Unable to click on object 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create_second_bin_with_cables_single_site_without_ws_fan_plenum/Page_Sites and Bins - OPI Blue/button_Continue_2' located by 'By.xpath: //button[(text() = '
+                
+                Continue
+            ' or . = '
+                
+                Continue
+            ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
